@@ -1,7 +1,7 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2020-01-04T22:26:58Z",
+        "CreationDate": "2020-01-06T02:43:50Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
@@ -13,7 +13,7 @@
         "BoardThickness": 1.57,
         "LayerNumber": 2,
         "Name": {
-            "ProjectId": "Tester"
+            "ProjectId": "BD0004"
         },
         "Owner": "Nick JP <droidineer@gmail.com>",
         "Size": {

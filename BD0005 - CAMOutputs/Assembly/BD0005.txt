@@ -1,4 +1,4 @@
-Partlist exported from C:/Users/NJArb/OneDrive/Documents/EAGLE/projects/clock/Clock2.sch at 1/4/2020 3:02 PM
+Partlist exported from C:/Users/NJArb/OneDrive/Documents/EAGLE/projects/clock/BD0005.sch at 1/5/2020 7:44 PM
 
 Qty Value                     Device                    Package          Parts                                                                                              Description                  BUILT_BY    COPYRIGHT                                                   MANUFACTURER_PART_NUMBER VENDOR                     
 1                             PINHD-1X3                 1X03             JP2                                                                                                PIN HEADER                                                                                                                                               

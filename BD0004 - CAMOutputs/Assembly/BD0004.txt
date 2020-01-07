@@ -1,4 +1,4 @@
-Partlist exported from C:/Users/NJArb/OneDrive/Documents/EAGLE/projects/clock/Tester.sch at 1/4/2020 3:26 PM
+Partlist exported from C:/Users/NJArb/OneDrive/Documents/EAGLE/projects/clock/BD0004.sch at 1/5/2020 7:43 PM
 
 Qty Value                     Device                    Package          Parts                                       Description                BUILT_BY    COPYRIGHT                                                   MANUFACTURER_PART_NUMBER VENDOR                     
 4   0.1uF                     C-USC0402                 C0402            C1, C2, C3, C8                              CAPACITOR, American symbol                                                                                                                             
