@@ -3,13 +3,25 @@
 <eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="2" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
@@ -174,6 +186,7 @@
 <layer number="255" name="PART" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
+<fusionsync huburn="a.YnVzaW5lc3M6Z21haWw1MDEzNDE" projecturn="a.YnVzaW5lc3M6Z21haWw1MDEzNDEjMjAyMDAxMDgyNTMwOTk3MDE" f3durn="urn:adsk.wipprod:dm.lineage:Q9bt92vQQM6cVH8RrSynkw" pcbguid="7e6e3359-e77e-49f4-8f91-b2abc7d7d653" lastpulledtime="" lastsyncedchangeguid="3e926ff9-b783-3dbd-e8ee-90f2238e0791"/>
 <plain>
 <wire x1="0" y1="36.195" x2="0" y2="3.175" width="0" layer="20"/>
 <wire x1="0" y1="3.175" x2="3.175" y2="0" width="0" layer="20" curve="90"/>
@@ -12961,130 +12974,9 @@
 <text x="5.7658" y="29.9974" size="1.778" layer="22" font="vector" ratio="13" rot="MR0" align="bottom-center">BD0004</text>
 </plain>
 <libraries>
-<library name="adafruit" urn="urn:adsk.eagle:library:420">
+<library name="DroidForge" urn="urn:adsk.eagle:library:16489927">
 <packages>
-<package name="C0402" urn="urn:adsk.eagle:footprint:6239683/1" library_version="2">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
-chip</description>
-<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
-<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
-<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<text x="-0.635" y="0.762" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-</package>
-<package name="R0402" urn="urn:adsk.eagle:footprint:6239918/1" library_version="2">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
-chip</description>
-<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
-<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
-<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<text x="-0.635" y="0.762" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-2.032" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-</package>
-<package name="C0805" urn="urn:adsk.eagle:footprint:6239686/1" library_version="2">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
-chip</description>
-<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="-0.381" y1="0.66" x2="0.381" y2="0.66" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.66" x2="0.381" y2="-0.66" width="0.1016" layer="51"/>
-<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
-<smd name="1" x="-0.85" y="0" dx="1.3" dy="1.5" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.3" dy="1.5" layer="1"/>
-<text x="-0.889" y="1.016" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.889" y="-2.286" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.0922" y1="-0.7239" x2="-0.3421" y2="0.7262" layer="51"/>
-<rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
-<rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="C0402" urn="urn:adsk.eagle:package:6240340/1" type="box" library_version="2">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
-chip</description>
-<packageinstances>
-<packageinstance name="C0402"/>
-</packageinstances>
-</package3d>
-<package3d name="R0402" urn="urn:adsk.eagle:package:6240564/1" type="box" library_version="2">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
-chip</description>
-<packageinstances>
-<packageinstance name="R0402"/>
-</packageinstances>
-</package3d>
-<package3d name="C0805" urn="urn:adsk.eagle:package:6240337/1" type="box" library_version="2">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
-chip</description>
-<packageinstances>
-<packageinstance name="C0805"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
-<library name="Clock">
-<packages>
-<package name="SK6812">
-<smd name="3" x="2.45" y="-1.6" dx="1.5" dy="1" layer="1" rot="R180"/>
-<smd name="4" x="2.45" y="1.6" dx="1.5" dy="1" layer="1" rot="R180"/>
-<smd name="1" x="-2.45" y="1.6" dx="1.5" dy="1" layer="1" rot="R180"/>
-<smd name="2" x="-2.45" y="-1.6" dx="1.5" dy="1" layer="1" rot="R180"/>
-<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.1524" layer="51"/>
-<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="0.1524" layer="51"/>
-<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.1524" layer="51"/>
-<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.1524" layer="51"/>
-<text x="1.6" y="1.1" size="2.54" layer="21" ratio="10" rot="SR90">^</text>
-<text x="-3.81" y="0" size="0.8128" layer="25" ratio="12" rot="R270" align="top-center">&gt;NAME</text>
-</package>
-<package name="F3SMD">
-<smd name="1A" x="-2.54" y="4.5212" dx="1.524" dy="2.286" layer="1" rot="R180"/>
-<smd name="2A" x="0" y="4.5212" dx="1.524" dy="2.286" layer="1" rot="R180"/>
-<smd name="3A" x="2.54" y="4.5212" dx="1.524" dy="2.286" layer="1" rot="R180"/>
-<smd name="1B" x="-2.54" y="-4.5212" dx="1.524" dy="2.286" layer="1" rot="R180"/>
-<smd name="2B" x="0" y="-4.5212" dx="1.524" dy="2.286" layer="1" rot="R180"/>
-<smd name="3B" x="2.54" y="-4.5212" dx="1.524" dy="2.286" layer="1" rot="R180"/>
-<wire x1="-3.81" y1="4.064" x2="-3.81" y2="-4.064" width="0.1524" layer="51"/>
-<wire x1="-3.81" y1="-4.064" x2="3.81" y2="-4.064" width="0.1524" layer="51"/>
-<wire x1="3.81" y1="-4.064" x2="3.81" y2="4.064" width="0.1524" layer="51"/>
-<wire x1="3.81" y1="4.064" x2="-3.81" y2="4.064" width="0.1524" layer="51"/>
-<text x="5.08" y="0" size="1.778" layer="48" rot="R90" align="center">&gt;NAME</text>
-<wire x1="0" y1="-2.54" x2="-1.27" y2="-1.27" width="0.3048" layer="21"/>
-<wire x1="-1.27" y1="-1.27" x2="0" y2="-1.27" width="0.3048" layer="21"/>
-<wire x1="0" y1="-1.27" x2="1.27" y2="-1.27" width="0.3048" layer="21"/>
-<wire x1="1.27" y1="-1.27" x2="0" y2="-2.54" width="0.3048" layer="21"/>
-<wire x1="0" y1="-1.27" x2="0" y2="2.54" width="0.3048" layer="21"/>
-</package>
-<package name="M3SMD">
-<smd name="1" x="-2.54" y="4.5212" dx="1.524" dy="2.286" layer="1" rot="R180"/>
-<smd name="2" x="0" y="4.5212" dx="1.524" dy="2.286" layer="1" rot="R180"/>
-<smd name="3" x="2.54" y="4.5212" dx="1.524" dy="2.286" layer="1" rot="R180"/>
-<wire x1="-3.81" y1="4.064" x2="-3.81" y2="1.524" width="0.1524" layer="51"/>
-<wire x1="-3.81" y1="1.524" x2="3.81" y2="1.524" width="0.1524" layer="51"/>
-<wire x1="3.81" y1="1.524" x2="3.81" y2="4.064" width="0.1524" layer="51"/>
-<wire x1="3.81" y1="4.064" x2="-3.81" y2="4.064" width="0.1524" layer="51"/>
-<text x="5.08" y="0" size="1.778" layer="25" rot="R90" align="center">&gt;NAME</text>
-<wire x1="0" y1="1.27" x2="-1.27" y2="2.54" width="0.3048" layer="21"/>
-<wire x1="-1.27" y1="2.54" x2="1.27" y2="2.54" width="0.3048" layer="21"/>
-<wire x1="1.27" y1="2.54" x2="0" y2="1.27" width="0.3048" layer="21"/>
-</package>
-<package name="QFN24_4X4MC">
+<package name="QFN24_4X4MC" urn="urn:adsk.eagle:footprint:16489940/2" library_version="3" library_locally_modified="yes">
 <smd name="1" x="-1.9685" y="1.27" dx="0.3048" dy="0.8128" layer="1" rot="R270"/>
 <smd name="2" x="-1.9685" y="0.762" dx="0.3048" dy="0.8128" layer="1" rot="R270"/>
 <smd name="3" x="-1.9685" y="0.254" dx="0.3048" dy="0.8128" layer="1" rot="R270"/>
@@ -13118,42 +13010,6 @@ chip</description>
 <wire x1="-1.9812" y1="-1.7526" x2="-1.9812" y2="-1.9812" width="0.1524" layer="21"/>
 <wire x1="1.7526" y1="-1.9812" x2="1.9812" y2="-1.9812" width="0.1524" layer="21"/>
 <wire x1="1.9812" y1="1.7526" x2="1.9812" y2="1.9812" width="0.1524" layer="21"/>
-<polygon width="0.0254" layer="21">
-<vertex x="0.0635" y="-2.6289"/>
-<vertex x="0.0635" y="-2.8829"/>
-<vertex x="0.4445" y="-2.8829"/>
-<vertex x="0.4445" y="-2.6289"/>
-</polygon>
-<polygon width="0.0254" layer="21">
-<vertex x="0.5715" y="2.6289"/>
-<vertex x="0.5715" y="2.8829"/>
-<vertex x="0.9525" y="2.8829"/>
-<vertex x="0.9525" y="2.6289"/>
-</polygon>
-<polygon width="0.0254" layer="31">
-<vertex x="-1.1954" y="1.1954"/>
-<vertex x="-1.1954" y="0.1"/>
-<vertex x="-0.1" y="0.1"/>
-<vertex x="-0.1" y="1.1954"/>
-</polygon>
-<polygon width="0.0254" layer="31">
-<vertex x="-1.1954" y="-0.1"/>
-<vertex x="-1.1954" y="-1.1954"/>
-<vertex x="-0.1" y="-1.1954"/>
-<vertex x="-0.1" y="-0.1"/>
-</polygon>
-<polygon width="0.0254" layer="31">
-<vertex x="0.1" y="1.1954"/>
-<vertex x="0.1" y="0.1"/>
-<vertex x="1.1954" y="0.1"/>
-<vertex x="1.1954" y="1.1954"/>
-</polygon>
-<polygon width="0.0254" layer="31">
-<vertex x="0.1" y="-0.1"/>
-<vertex x="0.1" y="-1.1954"/>
-<vertex x="1.1954" y="-1.1954"/>
-<vertex x="1.1954" y="-0.1"/>
-</polygon>
 <wire x1="-1.9812" y1="0.7112" x2="-0.7112" y2="1.9812" width="0.1524" layer="51"/>
 <wire x1="1.1176" y1="1.9812" x2="1.4224" y2="1.9812" width="0.1524" layer="51"/>
 <wire x1="1.4224" y1="1.9812" x2="1.4224" y2="2.0828" width="0.1524" layer="51"/>
@@ -13255,41 +13111,70 @@ chip</description>
 <wire x1="1.9812" y1="-1.9812" x2="1.9812" y2="1.9812" width="0.1524" layer="51"/>
 <wire x1="1.9812" y1="1.9812" x2="-1.9812" y2="1.9812" width="0.1524" layer="51"/>
 <wire x1="-1.9812" y1="1.9812" x2="-1.9812" y2="-1.9812" width="0.1524" layer="51"/>
-<text x="-3.81" y="1.4224" size="1.016" layer="21" rot="SR270">^</text>
-<text x="-3.81" y="0" size="0.8128" layer="25" ratio="6" rot="SR90" align="top-center">&gt;Name</text>
 <wire x1="-1.397" y1="1.397" x2="-1.397" y2="-1.397" width="0.1524" layer="29"/>
 <wire x1="-1.397" y1="-1.397" x2="1.397" y2="-1.397" width="0.1524" layer="29"/>
 <wire x1="1.397" y1="-1.397" x2="1.397" y2="1.397" width="0.1524" layer="29"/>
 <wire x1="1.397" y1="1.397" x2="-1.397" y2="1.397" width="0.1524" layer="29"/>
+<polygon width="0.0254" layer="31">
+<vertex x="-1.1954" y="1.1954"/>
+<vertex x="-1.1954" y="0.1"/>
+<vertex x="-0.1" y="0.1"/>
+<vertex x="-0.1" y="1.1954"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="-1.1954" y="-0.1"/>
+<vertex x="-1.1954" y="-1.1954"/>
+<vertex x="-0.1" y="-1.1954"/>
+<vertex x="-0.1" y="-0.1"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="0.1" y="1.1954"/>
+<vertex x="0.1" y="0.1"/>
+<vertex x="1.1954" y="0.1"/>
+<vertex x="1.1954" y="1.1954"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="0.1" y="-0.1"/>
+<vertex x="0.1" y="-1.1954"/>
+<vertex x="1.1954" y="-1.1954"/>
+<vertex x="1.1954" y="-0.1"/>
+</polygon>
+<text x="-4.064" y="1.5494" size="1.27" layer="21" ratio="12" rot="SR270">^</text>
+<text x="-2.159" y="2.667" size="0.8128" layer="25" ratio="19" rot="SR0">&gt;Name</text>
 </package>
-<package name="4-SMD_BUTTON">
-<smd name="1A" x="-1.8" y="0.725" dx="1.05" dy="1.4" layer="1" rot="R90"/>
-<smd name="2A" x="-1.8" y="-0.75" dx="1.05" dy="1.4" layer="1" rot="R90"/>
-<smd name="2B" x="1.8" y="-0.75" dx="1.05" dy="1.4" layer="1" rot="R90"/>
-<smd name="1B" x="1.8" y="0.75" dx="1.05" dy="1.4" layer="1" rot="R90"/>
-<wire x1="-1.75" y1="1.45" x2="1.75" y2="1.45" width="0.1524" layer="51"/>
-<wire x1="1.75" y1="1.45" x2="1.75" y2="-1.45" width="0.1524" layer="51"/>
-<wire x1="1.75" y1="-1.45" x2="-1.75" y2="-1.45" width="0.1524" layer="51"/>
-<wire x1="-1.75" y1="-1.45" x2="-1.75" y2="1.45" width="0.1524" layer="51"/>
-<wire x1="-0.85" y1="-1.524" x2="-0.85" y2="-2.1" width="0.1524" layer="51"/>
-<wire x1="-0.85" y1="-2.1" x2="0.85" y2="-2.1" width="0.1524" layer="51"/>
-<wire x1="0.85" y1="-2.1" x2="0.85" y2="-1.524" width="0.1524" layer="51"/>
-<text x="0" y="2.54" size="0.8128" layer="25" ratio="10" align="center">&gt;NAME</text>
+<package name="4-SMD_FLAT_LEADS" urn="urn:adsk.eagle:footprint:16489961/1" library_version="1">
+<smd name="4" x="-3.15" y="0.45" dx="1.2" dy="0.6" layer="1"/>
+<smd name="1" x="-3.15" y="-0.45" dx="1.2" dy="0.6" layer="1"/>
+<smd name="3" x="3.15" y="0.45" dx="1.2" dy="0.6" layer="1"/>
+<smd name="2" x="3.15" y="-0.45" dx="1.2" dy="0.6" layer="1"/>
+<wire x1="-3.35" y1="0.75" x2="3.35" y2="0.75" width="0.1524" layer="51"/>
+<wire x1="3.35" y1="0.75" x2="3.35" y2="-0.75" width="0.1524" layer="51"/>
+<wire x1="3.35" y1="-0.75" x2="-3.35" y2="-0.75" width="0.1524" layer="51"/>
+<wire x1="-3.35" y1="-0.75" x2="-3.35" y2="0.75" width="0.1524" layer="51"/>
+<wire x1="-2.286" y1="0.762" x2="2.286" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-2.286" y1="-0.762" x2="2.286" y2="-0.762" width="0.1524" layer="21"/>
+<text x="0" y="1" size="1.016" layer="51" ratio="10" align="bottom-center">&gt;NAME</text>
 </package>
-<package name="CON00679_5">
+<package name="R-1-CR" urn="urn:adsk.eagle:footprint:16489969/1" library_version="1">
+<pad name="P$1" x="0" y="0" drill="1.397" diameter="1.6764" shape="long" rot="R90"/>
+<text x="0" y="-2.667" size="0.8128" layer="21" ratio="19" align="bottom-center">&gt;NAME</text>
+</package>
+<package name="CON00679_5" urn="urn:adsk.eagle:footprint:16489937/2" library_version="2" library_locally_modified="yes">
 <smd name="1" x="-1.301571875" y="2.50378125" dx="0.4064" dy="1.3462" layer="1"/>
 <smd name="2" x="-0.651571875" y="2.50378125" dx="0.4064" dy="1.3462" layer="1"/>
 <smd name="3" x="-0.001571875" y="2.50378125" dx="0.4064" dy="1.3462" layer="1"/>
 <smd name="4" x="0.648425" y="2.50378125" dx="0.4064" dy="1.3462" layer="1"/>
 <smd name="5" x="1.298428125" y="2.50378125" dx="0.4064" dy="1.3462" layer="1"/>
-<pad name="6" x="-2.4892" y="2.5146" drill="0.8636" diameter="1.4478" rot="R90"/>
-<pad name="7" x="2.4892" y="2.5146" drill="0.8636" diameter="1.4478" rot="R90"/>
 <smd name="8" x="-1.001571875" y="-0.19621875" dx="1.4986" dy="1.905" layer="1"/>
 <smd name="9" x="0.998425" y="-0.19621875" dx="1.4986" dy="1.905" layer="1"/>
-<smd name="11" x="3.498425" y="-0.19621875" dx="1.905" dy="1.1938" layer="1" roundness="100" rot="R90"/>
-<smd name="10" x="-3.501571875" y="-0.19621875" dx="1.905" dy="1.1938" layer="1" roundness="100" rot="R90"/>
+<smd name="11" x="3.498425" y="-0.19621875" dx="1.905" dy="1.1938" layer="16" roundness="100" rot="R90"/>
+<smd name="10" x="-3.501571875" y="-0.19621875" dx="1.905" dy="1.1938" layer="16" roundness="100" rot="R90"/>
 <smd name="12" x="-2.901575" y="-0.19621875" dx="1.20050625" dy="1.905" layer="1"/>
 <smd name="13" x="2.897525" y="-0.19621875" dx="1.20050625" dy="1.905" layer="1"/>
+<smd name="10_B" x="-3.501571875" y="-0.19621875" dx="1.905" dy="1.1938" layer="1" roundness="100" rot="R90"/>
+<smd name="11_B" x="3.498425" y="-0.19621875" dx="1.905" dy="1.1938" layer="1" roundness="100" rot="R90"/>
+<pad name="6" x="-2.4892" y="2.5146" drill="0.8636" diameter="1.4478" rot="R90"/>
+<pad name="7" x="2.4892" y="2.5146" drill="0.8636" diameter="1.4478" rot="R90"/>
 <wire x1="3.5052" y1="0.1524" x2="3.5052" y2="-0.5334" width="0.6096" layer="49"/>
 <wire x1="-3.5052" y1="0.1524" x2="-3.5052" y2="-0.5334" width="0.6096" layer="49"/>
 <wire x1="-3.8862" y1="-2.6162" x2="3.8608" y2="-2.6162" width="0.1524" layer="21"/>
@@ -13299,16 +13184,28 @@ chip</description>
 <wire x1="-3.556" y1="2.6416" x2="-3.8862" y2="2.6416" width="0.1524" layer="21"/>
 <wire x1="-3.8862" y1="-1.397" x2="-3.8862" y2="-2.6162" width="0.1524" layer="21"/>
 <wire x1="3.8608" y1="1.016" x2="3.8608" y2="2.6416" width="0.1524" layer="21"/>
-<text x="-1.7272" y="1.8796" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
 <wire x1="-1.9304" y1="-2.4892" x2="-1.2954" y2="-3.7592" width="0.1524" layer="51"/>
 <wire x1="-0.6604" y1="-2.4892" x2="-1.2954" y2="-3.7592" width="0.1524" layer="51"/>
 <wire x1="-3.7592" y1="-2.4892" x2="3.7338" y2="-2.4892" width="0.1524" layer="51"/>
 <wire x1="3.7338" y1="-2.4892" x2="3.7338" y2="2.5146" width="0.1524" layer="51"/>
 <wire x1="3.7338" y1="2.5146" x2="-3.7592" y2="2.5146" width="0.1524" layer="51"/>
 <wire x1="-3.7592" y1="2.5146" x2="-3.7592" y2="-2.4892" width="0.1524" layer="51"/>
+<wire x1="-3.8" y1="0.20378125" x2="-3.8" y2="-0.54621875" width="0" layer="20"/>
+<wire x1="-3.2" y1="-0.54621875" x2="-3.2" y2="0.15378125" width="0" layer="20"/>
+<wire x1="-3.2" y1="0.15378125" x2="-3.5" y2="0.45378125" width="0" layer="20" curve="90"/>
+<wire x1="-3.5" y1="0.45378125" x2="-3.8" y2="0.20378125" width="0" layer="20" curve="90"/>
+<wire x1="-3.8" y1="-0.54621875" x2="-3.5" y2="-0.84621875" width="0" layer="20" curve="90"/>
+<wire x1="-3.5" y1="-0.84621875" x2="-3.2" y2="-0.54621875" width="0" layer="20" curve="90"/>
+<wire x1="3.2" y1="0.20378125" x2="3.2" y2="-0.54621875" width="0" layer="20"/>
+<wire x1="3.8" y1="-0.54621875" x2="3.8" y2="0.15378125" width="0" layer="20"/>
+<wire x1="3.8" y1="0.15378125" x2="3.5" y2="0.45378125" width="0" layer="20" curve="90"/>
+<wire x1="3.5" y1="0.45378125" x2="3.2" y2="0.20378125" width="0" layer="20" curve="90"/>
+<wire x1="3.2" y1="-0.54621875" x2="3.5" y2="-0.84621875" width="0" layer="20" curve="90"/>
+<wire x1="3.5" y1="-0.84621875" x2="3.8" y2="-0.54621875" width="0" layer="20" curve="90"/>
+<text x="-1.7272" y="1.8796" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
-<package name="SOT-223">
+<package name="SOT-223" urn="urn:adsk.eagle:footprint:16489936/1" library_version="3" library_locally_modified="yes">
 <smd name="1" x="-2.3" y="-3.025" dx="0.8508" dy="1.7612" layer="1"/>
 <smd name="2" x="0" y="-3.025" dx="0.8508" dy="1.7612" layer="1"/>
 <smd name="3" x="2.3" y="-3.025" dx="0.8508" dy="1.7612" layer="1"/>
@@ -13348,67 +13245,21 @@ chip</description>
 <text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
-<package name="SOT-666-M">
-<smd name="1" x="-1.0287" y="0.5" dx="0.762" dy="0.3302" layer="1"/>
-<smd name="2" x="-1.0287" y="0" dx="0.762" dy="0.3302" layer="1"/>
-<smd name="3" x="-1.0287" y="-0.5" dx="0.762" dy="0.3302" layer="1"/>
-<smd name="4" x="1.0287" y="-0.5" dx="0.762" dy="0.3302" layer="1"/>
-<smd name="5" x="1.0287" y="0" dx="0.762" dy="0.3302" layer="1"/>
-<smd name="6" x="1.0287" y="0.5" dx="0.762" dy="0.3302" layer="1"/>
-<wire x1="-0.635" y1="0.3302" x2="-0.6604" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-0.6604" y1="0.6604" x2="-0.8636" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-0.8636" y1="0.6604" x2="-0.8382" y2="0.3302" width="0.1524" layer="51"/>
-<wire x1="-0.8382" y1="0.3302" x2="-0.635" y2="0.3302" width="0.1524" layer="51"/>
-<wire x1="-0.635" y1="-0.1524" x2="-0.6604" y2="0.1524" width="0.1524" layer="51"/>
-<wire x1="-0.6604" y1="0.1524" x2="-0.8636" y2="0.1524" width="0.1524" layer="51"/>
-<wire x1="-0.8636" y1="0.1524" x2="-0.8382" y2="-0.1778" width="0.1524" layer="51"/>
-<wire x1="-0.8382" y1="-0.1778" x2="-0.635" y2="-0.1524" width="0.1524" layer="51"/>
-<wire x1="-0.635" y1="-0.6604" x2="-0.6604" y2="-0.3302" width="0.1524" layer="51"/>
-<wire x1="-0.6604" y1="-0.3302" x2="-0.8636" y2="-0.3302" width="0.1524" layer="51"/>
-<wire x1="-0.8636" y1="-0.3302" x2="-0.8382" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="-0.8382" y1="-0.6604" x2="-0.635" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="0.635" y1="-0.3302" x2="0.6604" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="0.6604" y1="-0.6604" x2="0.8636" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="0.8636" y1="-0.6604" x2="0.8382" y2="-0.3302" width="0.1524" layer="51"/>
-<wire x1="0.8382" y1="-0.3302" x2="0.635" y2="-0.3302" width="0.1524" layer="51"/>
-<wire x1="0.635" y1="0.1524" x2="0.6604" y2="-0.1524" width="0.1524" layer="51"/>
-<wire x1="0.6604" y1="-0.1524" x2="0.8636" y2="-0.1524" width="0.1524" layer="51"/>
-<wire x1="0.8636" y1="-0.1524" x2="0.8382" y2="0.1778" width="0.1524" layer="51"/>
-<wire x1="0.8382" y1="0.1778" x2="0.635" y2="0.1524" width="0.1524" layer="51"/>
-<wire x1="0.635" y1="0.6604" x2="0.635" y2="0.3302" width="0.1524" layer="51"/>
-<wire x1="0.635" y1="0.3302" x2="0.8636" y2="0.3302" width="0.1524" layer="51"/>
-<wire x1="0.8636" y1="0.3302" x2="0.8382" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="0.8382" y1="0.6604" x2="0.635" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-0.6604" y1="-0.8636" x2="0.6604" y2="-0.8636" width="0.1524" layer="51"/>
-<wire x1="0.6604" y1="-0.8636" x2="0.6604" y2="0.8636" width="0.1524" layer="51"/>
-<wire x1="0.6604" y1="0.8636" x2="0.3048" y2="0.8636" width="0.1524" layer="51"/>
-<wire x1="0.3048" y1="0.8636" x2="-0.6604" y2="0.8636" width="0.1524" layer="51"/>
-<wire x1="-0.6604" y1="0.8636" x2="-0.6604" y2="-0.8636" width="0.1524" layer="51"/>
-<wire x1="0.3048" y1="0.8636" x2="-0.3048" y2="0.8382" width="0.1524" layer="51" curve="-180"/>
-<wire x1="-0.5334" y1="-0.9652" x2="0.5334" y2="-0.9652" width="0.1524" layer="21"/>
-<wire x1="0.5334" y1="0.9652" x2="-0.5334" y2="0.9652" width="0.1524" layer="21"/>
-<text x="-0.8128" y="2.4638" size="1.27" layer="21" ratio="6" rot="SR180">^</text>
-<text x="2.667" y="-0.9652" size="0.8128" layer="21" ratio="6" rot="SR90">&gt;Value</text>
-<text x="-2.032" y="-0.9906" size="0.8128" layer="25" ratio="6" rot="SR90">&gt;Name</text>
+<package name="4-SMD_BUTTON" urn="urn:adsk.eagle:footprint:16489962/2" library_version="3" library_locally_modified="yes">
+<smd name="1A" x="-1.8" y="0.725" dx="1.05" dy="1.4" layer="1" rot="R90"/>
+<smd name="2A" x="-1.8" y="-0.75" dx="1.05" dy="1.4" layer="1" rot="R90"/>
+<smd name="2B" x="1.8" y="-0.75" dx="1.05" dy="1.4" layer="1" rot="R90"/>
+<smd name="1B" x="1.8" y="0.75" dx="1.05" dy="1.4" layer="1" rot="R90"/>
+<wire x1="-1.75" y1="1.45" x2="1.75" y2="1.45" width="0.1524" layer="51"/>
+<wire x1="1.75" y1="1.45" x2="1.75" y2="-1.45" width="0.1524" layer="51"/>
+<wire x1="1.75" y1="-1.45" x2="-1.75" y2="-1.45" width="0.1524" layer="51"/>
+<wire x1="-1.75" y1="-1.45" x2="-1.75" y2="1.45" width="0.1524" layer="51"/>
+<wire x1="-0.85" y1="-1.524" x2="-0.85" y2="-2.1" width="0.1524" layer="51"/>
+<wire x1="-0.85" y1="-2.1" x2="0.85" y2="-2.1" width="0.1524" layer="51"/>
+<wire x1="0.85" y1="-2.1" x2="0.85" y2="-1.524" width="0.1524" layer="51"/>
+<text x="0" y="2.159" size="0.8128" layer="25" font="vector" ratio="19" align="center">&gt;NAME</text>
 </package>
-<package name="4-SMD_FLAT_LEADS">
-<smd name="4" x="-3.15" y="0.45" dx="1.2" dy="0.6" layer="1"/>
-<smd name="1" x="-3.15" y="-0.45" dx="1.2" dy="0.6" layer="1"/>
-<smd name="3" x="3.15" y="0.45" dx="1.2" dy="0.6" layer="1"/>
-<smd name="2" x="3.15" y="-0.45" dx="1.2" dy="0.6" layer="1"/>
-<wire x1="-3.35" y1="0.75" x2="3.35" y2="0.75" width="0.1524" layer="51"/>
-<wire x1="3.35" y1="0.75" x2="3.35" y2="-0.75" width="0.1524" layer="51"/>
-<wire x1="3.35" y1="-0.75" x2="-3.35" y2="-0.75" width="0.1524" layer="51"/>
-<wire x1="-3.35" y1="-0.75" x2="-3.35" y2="0.75" width="0.1524" layer="51"/>
-<text x="0" y="1" size="1.016" layer="51" ratio="10" align="bottom-center">&gt;NAME</text>
-<wire x1="-2.286" y1="0.762" x2="2.286" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-2.286" y1="-0.762" x2="2.286" y2="-0.762" width="0.1524" layer="21"/>
-</package>
-<package name="R-1-CR">
-<pad name="P$1" x="0" y="0" drill="1.397" diameter="1.6764" shape="long" rot="R90"/>
-<text x="0" y="-2.667" size="0.8128" layer="21" ratio="19" align="bottom-center">&gt;NAME</text>
-</package>
-<package name="CONN_00010C4LF">
+<package name="CONN_00010C4LF" urn="urn:adsk.eagle:footprint:16489930/2" library_version="3" library_locally_modified="yes">
 <smd name="1" x="-5.08" y="-3.900003125" dx="0.762" dy="2.3876" layer="1"/>
 <smd name="2" x="-5.08" y="0" dx="0.762" dy="2.3876" layer="1"/>
 <smd name="3" x="-3.81" y="-3.900003125" dx="0.762" dy="2.3876" layer="1"/>
@@ -13425,10 +13276,122 @@ chip</description>
 <wire x1="0.635" y1="-3.6576" x2="0.635" y2="-0.254" width="0.1524" layer="51"/>
 <wire x1="0.635" y1="-0.254" x2="-5.715" y2="-0.254" width="0.1524" layer="51"/>
 <wire x1="-5.715" y1="-0.254" x2="-5.715" y2="-3.6576" width="0.1524" layer="51"/>
-<text x="-7.5692" y="-4.5466" size="0.8128" layer="25" ratio="19" rot="SR90">&gt;Name</text>
-<text x="-5.08" y="-7.112" size="1.27" layer="21" ratio="19" align="bottom-center">^</text>
+<text x="-6.2992" y="-3.9116" size="0.8128" layer="25" font="vector" ratio="19" rot="SR90">&gt;Name</text>
+<text x="-5.08" y="-7.112" size="1.27" layer="21" font="vector" ratio="19" align="bottom-center">^</text>
+</package>
+<package name="0402" urn="urn:adsk.eagle:footprint:16500200/2" library_version="4" library_locally_modified="yes">
+<smd name="P$1" x="-0.508" y="0" dx="0.5842" dy="0.5588" layer="1"/>
+<smd name="P$2" x="0.508" y="0" dx="0.5842" dy="0.5588" layer="1"/>
+<text x="0" y="-0.889" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center">&gt;Name</text>
+<text x="0" y="0.889" size="0.8128" layer="27" font="vector" align="bottom-center">&gt;Value</text>
+<wire x1="-0.403859375" y1="0.24891875" x2="-0.403859375" y2="-0.24891875" width="0.1016" layer="51"/>
+<wire x1="-0.403859375" y1="-0.24891875" x2="0.403859375" y2="-0.24891875" width="0.1016" layer="51"/>
+<wire x1="0.403859375" y1="-0.24891875" x2="0.403859375" y2="0.24891875" width="0.1016" layer="51"/>
+<wire x1="0.403859375" y1="0.24891875" x2="-0.403859375" y2="0.24891875" width="0.1016" layer="51"/>
+</package>
+<package name="F3SMD_RIGHTANGLE" urn="urn:adsk.eagle:footprint:16489959/2" library_version="4" library_locally_modified="yes">
+<smd name="1A" x="-2.54" y="4.5212" dx="1.524" dy="2.286" layer="1" rot="R180"/>
+<smd name="2A" x="0" y="4.5212" dx="1.524" dy="2.286" layer="1" rot="R180"/>
+<smd name="3A" x="2.54" y="4.5212" dx="1.524" dy="2.286" layer="1" rot="R180"/>
+<smd name="1B" x="-2.54" y="-4.5212" dx="1.524" dy="2.286" layer="1" rot="R180"/>
+<smd name="2B" x="0" y="-4.5212" dx="1.524" dy="2.286" layer="1" rot="R180"/>
+<smd name="3B" x="2.54" y="-4.5212" dx="1.524" dy="2.286" layer="1" rot="R180"/>
+<wire x1="-3.81" y1="4.064" x2="-3.81" y2="-4.064" width="0.1524" layer="51"/>
+<wire x1="-3.81" y1="-4.064" x2="3.81" y2="-4.064" width="0.1524" layer="51"/>
+<wire x1="3.81" y1="-4.064" x2="3.81" y2="4.064" width="0.1524" layer="51"/>
+<wire x1="3.81" y1="4.064" x2="-3.81" y2="4.064" width="0.1524" layer="51"/>
+<wire x1="0" y1="-2.54" x2="-1.27" y2="-1.27" width="0.3048" layer="21"/>
+<wire x1="-1.27" y1="-1.27" x2="0" y2="-1.27" width="0.3048" layer="21"/>
+<wire x1="0" y1="-1.27" x2="1.27" y2="-1.27" width="0.3048" layer="21"/>
+<wire x1="1.27" y1="-1.27" x2="0" y2="-2.54" width="0.3048" layer="21"/>
+<wire x1="0" y1="-1.27" x2="0" y2="2.54" width="0.3048" layer="21"/>
+<text x="5.08" y="0" size="1.778" layer="48" rot="R90" align="center">&gt;NAME</text>
+</package>
+<package name="M3SMD_RIGHTANGLE" urn="urn:adsk.eagle:footprint:16489960/2" library_version="4" library_locally_modified="yes">
+<smd name="1" x="-2.54" y="4.5212" dx="1.524" dy="2.286" layer="1" rot="R180"/>
+<smd name="2" x="0" y="4.5212" dx="1.524" dy="2.286" layer="1" rot="R180"/>
+<smd name="3" x="2.54" y="4.5212" dx="1.524" dy="2.286" layer="1" rot="R180"/>
+<wire x1="-3.81" y1="4.064" x2="-3.81" y2="1.524" width="0.1524" layer="51"/>
+<wire x1="-3.81" y1="1.524" x2="3.81" y2="1.524" width="0.1524" layer="51"/>
+<wire x1="3.81" y1="1.524" x2="3.81" y2="4.064" width="0.1524" layer="51"/>
+<wire x1="3.81" y1="4.064" x2="-3.81" y2="4.064" width="0.1524" layer="51"/>
+<wire x1="0" y1="1.27" x2="-1.27" y2="2.54" width="0.3048" layer="21"/>
+<wire x1="-1.27" y1="2.54" x2="1.27" y2="2.54" width="0.3048" layer="21"/>
+<wire x1="1.27" y1="2.54" x2="0" y2="1.27" width="0.3048" layer="21"/>
+<text x="5.08" y="0" size="1.778" layer="25" rot="R90" align="center">&gt;NAME</text>
+</package>
+<package name="SK6812-B" urn="urn:adsk.eagle:footprint:16507178/1" library_version="5" library_locally_modified="yes">
+<smd name="3" x="2.45" y="-1.6" dx="1.5" dy="1" layer="1" rot="R180"/>
+<smd name="4" x="2.45" y="1.6" dx="1.5" dy="1" layer="1" rot="R180"/>
+<smd name="1" x="-2.45" y="1.6" dx="1.5" dy="1" layer="1" rot="R180"/>
+<smd name="2" x="-2.45" y="-1.6" dx="1.5" dy="1" layer="1" rot="R180"/>
+<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.1524" layer="51"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="0.1524" layer="51"/>
+<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.1524" layer="51"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.1524" layer="51"/>
+<text x="1.6" y="1.1" size="2.54" layer="21" ratio="10" rot="SR90">^</text>
+<text x="-3.81" y="0" size="0.8128" layer="25" ratio="12" rot="R270" align="top-center">&gt;NAME</text>
 </package>
 </packages>
+<packages3d>
+<package3d name="QFN24_4X4MC" urn="urn:adsk.eagle:package:16489994/3" type="model" library_version="3" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="QFN24_4X4MC"/>
+</packageinstances>
+</package3d>
+<package3d name="4-SMD_FLAT_LEADS" urn="urn:adsk.eagle:package:16489978/2" type="box" library_version="4" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="4-SMD_FLAT_LEADS"/>
+</packageinstances>
+</package3d>
+<package3d name="R-1-CR" urn="urn:adsk.eagle:package:16489970/2" type="model" library_version="4" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="R-1-CR"/>
+</packageinstances>
+</package3d>
+<package3d name="CON00679_5" urn="urn:adsk.eagle:package:16489991/3" type="model" library_version="2" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="CON00679_5"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT230P700X180-4L" urn="urn:adsk.eagle:package:16489990/2" type="model" library_version="3" library_locally_modified="yes">
+<description>4-SOT223, 2.30 mm pitch, 7.00 mm span, 6.50 X 3.50 X 1.80 mm body
+&lt;p&gt;4-pin SOT223 package with 2.30 mm pitch, 7.00 mm span with body size 6.50 X 3.50 X 1.80 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOT-223"/>
+</packageinstances>
+</package3d>
+<package3d name="4-SMD_BUTTON" urn="urn:adsk.eagle:package:16489977/3" type="model" library_version="3" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="4-SMD_BUTTON"/>
+</packageinstances>
+</package3d>
+<package3d name="CONN_00010C4LF" urn="urn:adsk.eagle:package:16489984/3" type="model" library_version="3" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="CONN_00010C4LF"/>
+</packageinstances>
+</package3d>
+<package3d name="0402" urn="urn:adsk.eagle:package:16500214/3" type="model" library_version="4" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="0402"/>
+</packageinstances>
+</package3d>
+<package3d name="F3SMD" urn="urn:adsk.eagle:package:16489980/3" type="model" library_version="4" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="F3SMD_RIGHTANGLE"/>
+</packageinstances>
+</package3d>
+<package3d name="M3SMD" urn="urn:adsk.eagle:package:16489979/3" type="model" library_version="4" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="M3SMD_RIGHTANGLE"/>
+</packageinstances>
+</package3d>
+<package3d name="SK6812-B" urn="urn:adsk.eagle:package:16507179/2" type="model" library_version="5" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="SK6812-B"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 </libraries>
 <attributes>
@@ -13623,105 +13586,224 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="L1" library="Clock" package="SK6812" value="WS2812B" x="43.18" y="36.83" smashed="yes" rot="MR0">
+<element name="L1" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="SK6812-B" package3d_urn="urn:adsk.eagle:package:16507179/2" value="WS2812B-B" x="43.18" y="36.83" smashed="yes" rot="MR0">
+<attribute name="0-DESC" value="NeoPixel Addressable LED" x="43.18" y="36.83" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="1-MN" value="Worldsemi" x="43.18" y="36.83" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="2-MPN" value="WS2812B-B" x="43.18" y="36.83" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="3-ALT_MN" value=" " x="43.18" y="36.83" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="4-ALT_MPN" value=" " x="43.18" y="36.83" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="5-DK_PN" value=" " x="43.18" y="36.83" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="6-MR_PN" value=" " x="43.18" y="36.83" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="40.1574" y="36.83" size="0.8128" layer="22" ratio="19" rot="MR270" align="center"/>
 </element>
-<element name="L2" library="Clock" package="SK6812" value="WS2812B" x="24.13" y="36.83" smashed="yes" rot="MR0">
+<element name="L2" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="SK6812-B" package3d_urn="urn:adsk.eagle:package:16507179/2" value="WS2812B-B" x="24.13" y="36.83" smashed="yes" rot="MR0">
+<attribute name="0-DESC" value="NeoPixel Addressable LED" x="24.13" y="36.83" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="1-MN" value="Worldsemi" x="24.13" y="36.83" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="2-MPN" value="WS2812B-B" x="24.13" y="36.83" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="3-ALT_MN" value=" " x="24.13" y="36.83" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="4-ALT_MPN" value=" " x="24.13" y="36.83" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="5-DK_PN" value=" " x="24.13" y="36.83" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="6-MR_PN" value=" " x="24.13" y="36.83" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="21.1074" y="36.83" size="0.8128" layer="22" ratio="19" rot="MR270" align="center"/>
 </element>
-<element name="J2" library="Clock" package="F3SMD" value="HEADER_1X3FEMALE" x="5.715" y="16.51" smashed="yes" rot="R270">
+<element name="J2" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="F3SMD_RIGHTANGLE" package3d_urn="urn:adsk.eagle:package:16489980/3" value="HEADER_1X3FEMALE" x="5.715" y="16.51" smashed="yes" rot="R270">
+<attribute name="0-DESC" value="CONN RCPT 3POS 0.1 TIN SMD R/A" x="5.715" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="1-MN" value="Samtec Inc." x="5.715" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="2-MPN" value="SMH-103-02-T-S-TR" x="5.715" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="3-ALT_MN" value="GCT" x="5.715" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="4-ALT_MPN" value="BG300-03-A-L-A" x="5.715" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="5-DK_PN" value="SAM14542CT-ND" x="5.715" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="6-MR_PN" value=" " x="5.715" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="0.889" y="11.811" size="0.8128" layer="25" ratio="19" align="center"/>
 </element>
-<element name="C1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0402" package3d_urn="urn:adsk.eagle:package:6240340/1" value="0.1uF" x="38.735" y="36.83" smashed="yes" rot="MR90">
+<element name="C1" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="0402" package3d_urn="urn:adsk.eagle:package:16500214/3" value="0.1uF" x="38.735" y="36.83" smashed="yes" rot="MR90">
+<attribute name="0-DESC" value=" " x="38.735" y="36.83" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="1-MN" value=" " x="38.735" y="36.83" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="2-MPN" value=" " x="38.735" y="36.83" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="3-ALT_MN" value=" " x="38.735" y="36.83" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="4-ALT_MPN" value=" " x="38.735" y="36.83" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="5-DK_PN" value=" " x="38.735" y="36.83" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="6-MR_PN" value=" " x="38.735" y="36.83" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="38.481" y="34.417" size="0.8128" layer="26" ratio="19" rot="MR90"/>
 <attribute name="VALUE" x="36.83" y="36.195" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="C2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0402" package3d_urn="urn:adsk.eagle:package:6240340/1" value="0.1uF" x="19.685" y="36.83" smashed="yes" rot="MR90">
+<element name="C2" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="0402" package3d_urn="urn:adsk.eagle:package:16500214/3" value="0.1uF" x="19.685" y="36.83" smashed="yes" rot="MR90">
+<attribute name="0-DESC" value=" " x="19.685" y="36.83" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="1-MN" value=" " x="19.685" y="36.83" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="2-MPN" value=" " x="19.685" y="36.83" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="3-ALT_MN" value=" " x="19.685" y="36.83" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="4-ALT_MPN" value=" " x="19.685" y="36.83" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="5-DK_PN" value=" " x="19.685" y="36.83" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="6-MR_PN" value=" " x="19.685" y="36.83" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="18.161" y="36.195" size="0.8128" layer="26" ratio="19" rot="MR90"/>
 <attribute name="VALUE" x="17.78" y="36.195" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="J1" library="Clock" package="M3SMD" value="HEADER_1X3MALE" x="68.5038" y="16.51" smashed="yes" rot="R90">
+<element name="J1" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="M3SMD_RIGHTANGLE" package3d_urn="urn:adsk.eagle:package:16489979/3" value="HEADER_1X3MALE" x="68.5038" y="16.51" smashed="yes" rot="R90">
+<attribute name="0-DESC" value="CONN HEADER SMD R/A 3POS 2.54MM" x="68.5038" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="1-MN" value="Samtec Inc." x="68.5038" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="2-MPN" value="TSM-103-01-T-SH" x="68.5038" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="3-ALT_MN" value="Sullins Connector Solutions" x="68.5038" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="4-ALT_MPN" value="GEC03SBSN-M89" x="68.5038" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="5-DK_PN" value="SAM10790-ND" x="68.5038" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="6-MR_PN" value="" x="68.5038" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="66.3448" y="11.43" size="0.8128" layer="25" ratio="19" rot="R180" align="center"/>
 </element>
-<element name="U1" library="Clock" package="QFN24_4X4MC" value="ATSAMD11D14A-MNT" x="58.039" y="25.273" smashed="yes" rot="MR0">
-<attribute name="BUILT_BY" value="EMA_Molly" x="58.039" y="25.273" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="58.039" y="25.273" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ATSAMD11D14A-MNT" x="58.039" y="25.273" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="U1" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="QFN24_4X4MC" package3d_urn="urn:adsk.eagle:package:16489994/3" value="SAMD11D14A" x="58.039" y="25.273" smashed="yes" rot="MR0">
+<attribute name="0-DESC" value="IC MCU 32BIT 16KB FLASH 24QFN" x="58.039" y="25.273" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="1-MN" value="Microchip Technology" x="58.039" y="25.273" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="2-MPN" value="ATSAMD11D14A-MNT" x="58.039" y="25.273" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="3-ALT_MN" value=" " x="58.039" y="25.273" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="4-ALT_MPN" value=" " x="58.039" y="25.273" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="5-DK_PN" value="1611-ATSAMD11D14A-MNTCT-ND" x="58.039" y="25.273" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="6-MR_PN" value=" 556-ATSAMD11D14A-MNT" x="58.039" y="25.273" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="61.849" y="25.273" size="0.8128" layer="26" ratio="19" rot="SMR90" align="top-center"/>
-<attribute name="VENDOR" value="Microchip" x="58.039" y="25.273" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="R1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="R0402" package3d_urn="urn:adsk.eagle:package:6240564/1" value="10k" x="29.845" y="34.163" smashed="yes" rot="MR270">
+<element name="R1" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="0402" package3d_urn="urn:adsk.eagle:package:16500214/3" value="10k" x="29.845" y="34.163" smashed="yes" rot="MR270">
+<attribute name="0-DESC" value=" " x="29.845" y="34.163" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="1-MN" value=" " x="29.845" y="34.163" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="2-MPN" value=" " x="29.845" y="34.163" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="3-ALT_MN" value=" " x="29.845" y="34.163" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="4-ALT_MPN" value=" " x="29.845" y="34.163" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="5-DK_PN" value=" " x="29.845" y="34.163" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="6-MR_PN" value=" " x="29.845" y="34.163" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="29.083" y="34.798" size="0.8128" layer="26" ratio="19" rot="MR270"/>
 <attribute name="VALUE" x="31.877" y="34.798" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="C3" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0402" package3d_urn="urn:adsk.eagle:package:6240340/1" value="0.1uF" x="61.087" y="28.067" smashed="yes" rot="MR180">
+<element name="C3" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="0402" package3d_urn="urn:adsk.eagle:package:16500214/3" value="0.1uF" x="61.087" y="28.067" smashed="yes" rot="MR180">
+<attribute name="0-DESC" value=" " x="61.087" y="28.067" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="1-MN" value=" " x="61.087" y="28.067" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="2-MPN" value=" " x="61.087" y="28.067" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="3-ALT_MN" value=" " x="61.087" y="28.067" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="4-ALT_MPN" value=" " x="61.087" y="28.067" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="5-DK_PN" value=" " x="61.087" y="28.067" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="6-MR_PN" value=" " x="61.087" y="28.067" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="60.452" y="27.305" size="0.8128" layer="26" ratio="19" rot="MR180"/>
 <attribute name="VALUE" x="60.452" y="29.972" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="B1" library="Clock" package="4-SMD_BUTTON" value="EVQ-P7A01P" x="33.655" y="36.83" smashed="yes" rot="MR180">
+<element name="B1" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="4-SMD_BUTTON" package3d_urn="urn:adsk.eagle:package:16489977/3" value="EVQ-P7A01P" x="33.655" y="36.83" smashed="yes" rot="MR180">
+<attribute name="0-DESC" value="SWITCH TACTILE SPST-NO 0.05A 12V" x="33.655" y="36.83" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="1-MN" value="Panasonic Electronic Components" x="33.655" y="36.83" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="2-MPN" value="EVQ-P7A01P" x="33.655" y="36.83" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="3-ALT_MN" value=" " x="33.655" y="36.83" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="4-ALT_MPN" value=" " x="33.655" y="36.83" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="5-DK_PN" value="P16763CT-ND" x="33.655" y="36.83" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="6-MR_PN" value="667-EVQP7A01P" x="33.655" y="36.83" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="33.655" y="34.671" size="0.8128" layer="26" ratio="19" rot="MR180" align="center"/>
 </element>
-<element name="C4" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="4.7uF" x="51.943" y="34.29" smashed="yes" rot="MR90">
+<element name="C4" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="0402" package3d_urn="urn:adsk.eagle:package:16500214/3" value="4.7uF" x="51.943" y="34.29" smashed="yes" rot="MR90">
+<attribute name="0-DESC" value=" " x="51.943" y="34.29" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="1-MN" value=" " x="51.943" y="34.29" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="2-MPN" value=" " x="51.943" y="34.29" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="3-ALT_MN" value=" " x="51.943" y="34.29" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="4-ALT_MPN" value=" " x="51.943" y="34.29" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="5-DK_PN" value=" " x="51.943" y="34.29" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="6-MR_PN" value=" " x="51.943" y="34.29" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="52.578" y="36.449" size="0.8128" layer="26" ratio="19" rot="MR0"/>
 <attribute name="VALUE" x="49.657" y="33.401" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="J3" library="Clock" package="CON00679_5" value="1050171001" x="58.42" y="37.846" smashed="yes" rot="MR180">
-<attribute name="BUILT_BY" value="EMA_Don" x="58.42" y="20.066" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright (C) 2016 Accelerated Designs. All rights reserved" x="58.42" y="20.066" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="1050171001" x="58.42" y="20.066" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="J3" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="CON00679_5" package3d_urn="urn:adsk.eagle:package:16489991/3" value="CONN_MICROUSB_FEMALE" x="58.42" y="37.846" smashed="yes" rot="MR180">
+<attribute name="0-DESC" value="CONN RCPT USB2.0 MICRO B SMD R/A" x="58.42" y="37.846" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="1-MN" value="Molex" x="58.42" y="37.846" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="2-MPN" value="1050171001" x="58.42" y="37.846" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="3-ALT_MN" value=" " x="58.42" y="37.846" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="4-ALT_MPN" value=" " x="58.42" y="37.846" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="5-DK_PN" value="WM11262CT-ND" x="58.42" y="37.846" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="6-MR_PN" value="538-105017-1001" x="58.42" y="37.846" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="62.992" y="36.8554" size="0.8128" layer="26" ratio="19" rot="SMR90"/>
-<attribute name="VENDOR" value="Molex Connector Corporation" x="58.42" y="20.066" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="U2" library="Clock" package="SOT-223" value="AP2114H-3.3TRG1" x="49.53" y="27.94" smashed="yes" rot="MR180">
-<attribute name="BUILT_BY" value="EMA_UL_Team" x="49.53" y="27.94" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="AP2114H-3.3TRG1" x="49.53" y="27.94" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="U2" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="SOT-223" package3d_urn="urn:adsk.eagle:package:16489990/2" value="AP2114H-3.3TRG1" x="49.53" y="27.94" smashed="yes" rot="MR180">
+<attribute name="0-DESC" value="IC REG LINEAR 3.3V 1A SOT223" x="49.53" y="27.94" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="1-MN" value="Diodes Incorporated" x="49.53" y="27.94" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="2-MPN" value="AP2114H-3.3TRG1" x="49.53" y="27.94" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="3-ALT_MN" value=" " x="49.53" y="27.94" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="4-ALT_MPN" value=" " x="49.53" y="27.94" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="5-DK_PN" value="AP2114H-3.3TRG1DICT-ND" x="49.53" y="27.94" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="6-MR_PN" value="621-AP2114H-3.3TRG1" x="49.53" y="27.94" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="53.467" y="27.3304" size="0.8128" layer="26" ratio="19" rot="SMR90"/>
-<attribute name="VENDOR" value="Diodes Inc" x="49.53" y="27.94" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="C5" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="10uF" x="49.403" y="34.29" smashed="yes" rot="MR90">
+<element name="C5" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="0402" package3d_urn="urn:adsk.eagle:package:16500214/3" value="10uF" x="49.403" y="34.29" smashed="yes" rot="MR90">
+<attribute name="0-DESC" value=" " x="49.403" y="34.29" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="1-MN" value=" " x="49.403" y="34.29" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="2-MPN" value=" " x="49.403" y="34.29" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="3-ALT_MN" value=" " x="49.403" y="34.29" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="4-ALT_MPN" value=" " x="49.403" y="34.29" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="5-DK_PN" value=" " x="49.403" y="34.29" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="6-MR_PN" value=" " x="49.403" y="34.29" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="50.038" y="36.449" size="0.8128" layer="26" ratio="19" rot="MR0"/>
 <attribute name="VALUE" x="47.117" y="33.401" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="CR1" library="Clock" package="SOT-666-M" value="USBLC6-2P6SOT-666-M" x="58.039" y="31.369" smashed="yes" rot="MR270">
-<attribute name="BUILT_BY" value="EMA_UL_Team" x="78.359" y="31.369" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="USBLC6-2P6" x="78.359" y="31.369" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="59.0296" y="33.147" size="0.8128" layer="26" ratio="19" rot="SMR0"/>
-<attribute name="VENDOR" value="STMicroelectronics" x="78.359" y="31.369" size="1.778" layer="28" rot="MR270" display="off"/>
-</element>
-<element name="C6" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0402" package3d_urn="urn:adsk.eagle:package:6240340/1" value="22pF" x="60.579" y="22.098" smashed="yes" rot="MR180">
+<element name="C6" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="0402" package3d_urn="urn:adsk.eagle:package:16500214/3" value="22pF" x="60.579" y="22.098" smashed="yes" rot="MR180">
+<attribute name="0-DESC" value=" " x="60.579" y="22.098" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="1-MN" value=" " x="60.579" y="22.098" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="2-MPN" value=" " x="60.579" y="22.098" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="3-ALT_MN" value=" " x="60.579" y="22.098" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="4-ALT_MPN" value=" " x="60.579" y="22.098" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="5-DK_PN" value=" " x="60.579" y="22.098" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="6-MR_PN" value=" " x="60.579" y="22.098" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="59.944" y="21.336" size="0.8128" layer="26" ratio="19" rot="MR180"/>
 <attribute name="VALUE" x="59.944" y="24.003" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="C7" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0402" package3d_urn="urn:adsk.eagle:package:6240340/1" value="22pF" x="57.531" y="22.098" smashed="yes" rot="MR0">
+<element name="C7" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="0402" package3d_urn="urn:adsk.eagle:package:16500214/3" value="22pF" x="57.531" y="22.098" smashed="yes" rot="MR0">
+<attribute name="0-DESC" value=" " x="57.531" y="22.098" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="1-MN" value=" " x="57.531" y="22.098" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="2-MPN" value=" " x="57.531" y="22.098" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="3-ALT_MN" value=" " x="57.531" y="22.098" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="4-ALT_MPN" value=" " x="57.531" y="22.098" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="5-DK_PN" value=" " x="57.531" y="22.098" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="6-MR_PN" value=" " x="57.531" y="22.098" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="58.166" y="22.86" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="58.166" y="20.193" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="X1" library="Clock" package="4-SMD_FLAT_LEADS" value="MC-146-32.7680JKA-A0:ROHS" x="59.055" y="17.653" smashed="yes" rot="MR270">
+<element name="X1" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="4-SMD_FLAT_LEADS" package3d_urn="urn:adsk.eagle:package:16489978/2" value="MC-146-32.7680JKA-A0:ROHS" x="59.055" y="17.653" smashed="yes" rot="MR270">
+<attribute name="0-DESC" value="CRYSTAL 32.7680 KHZ 12.5PF SMD" x="59.055" y="17.653" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="1-MN" value="EPSON" x="59.055" y="17.653" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="2-MPN" value="MC-146 32.7680KA-A0:ROHS" x="59.055" y="17.653" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="3-ALT_MN" value=" " x="59.055" y="17.653" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="4-ALT_MPN" value=" " x="59.055" y="17.653" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="5-DK_PN" value="SER4091CT-ND" x="59.055" y="17.653" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="6-MR_PN" value=" " x="59.055" y="17.653" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="58.055" y="17.653" size="0.8128" layer="52" ratio="19" rot="MR270" align="bottom-center"/>
 </element>
-<element name="TP1" library="Clock" package="R-1-CR" value="POGO" x="36.83" y="2.54" smashed="yes"/>
-<element name="TP2" library="Clock" package="R-1-CR" value="POGO" x="39.37" y="2.54" smashed="yes"/>
-<element name="TP3" library="Clock" package="R-1-CR" value="POGO" x="41.91" y="2.54" smashed="yes"/>
-<element name="TP4" library="Clock" package="R-1-CR" value="POGO" x="44.45" y="2.54" smashed="yes"/>
-<element name="TP5" library="Clock" package="R-1-CR" value="POGO" x="46.99" y="2.54" smashed="yes"/>
-<element name="TP6" library="Clock" package="R-1-CR" value="POGO" x="49.53" y="2.54" smashed="yes"/>
-<element name="TP7" library="Clock" package="R-1-CR" value="POGO" x="52.07" y="2.54" smashed="yes"/>
-<element name="TP8" library="Clock" package="R-1-CR" value="POGO" x="54.61" y="2.54" smashed="yes"/>
-<element name="L3" library="Clock" package="SK6812" value="WS2812B" x="5.08" y="25.4" smashed="yes" rot="MR0">
+<element name="TP1" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="R-1-CR" package3d_urn="urn:adsk.eagle:package:16489970/2" value="POGO" x="36.83" y="2.54" smashed="yes"/>
+<element name="TP2" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="R-1-CR" package3d_urn="urn:adsk.eagle:package:16489970/2" value="POGO" x="39.37" y="2.54" smashed="yes"/>
+<element name="TP3" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="R-1-CR" package3d_urn="urn:adsk.eagle:package:16489970/2" value="POGO" x="41.91" y="2.54" smashed="yes"/>
+<element name="TP4" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="R-1-CR" package3d_urn="urn:adsk.eagle:package:16489970/2" value="POGO" x="44.45" y="2.54" smashed="yes"/>
+<element name="TP5" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="R-1-CR" package3d_urn="urn:adsk.eagle:package:16489970/2" value="POGO" x="46.99" y="2.54" smashed="yes"/>
+<element name="TP6" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="R-1-CR" package3d_urn="urn:adsk.eagle:package:16489970/2" value="POGO" x="49.53" y="2.54" smashed="yes"/>
+<element name="TP7" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="R-1-CR" package3d_urn="urn:adsk.eagle:package:16489970/2" value="POGO" x="52.07" y="2.54" smashed="yes"/>
+<element name="TP8" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="R-1-CR" package3d_urn="urn:adsk.eagle:package:16489970/2" value="POGO" x="54.61" y="2.54" smashed="yes"/>
+<element name="L3" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="SK6812-B" package3d_urn="urn:adsk.eagle:package:16507179/2" value="WS2812B-B" x="5.08" y="25.4" smashed="yes" rot="MR0">
+<attribute name="0-DESC" value="NeoPixel Addressable LED" x="5.08" y="25.4" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="1-MN" value="Worldsemi" x="5.08" y="25.4" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="2-MPN" value="WS2812B-B" x="5.08" y="25.4" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="3-ALT_MN" value=" " x="5.08" y="25.4" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="4-ALT_MPN" value=" " x="5.08" y="25.4" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="5-DK_PN" value=" " x="5.08" y="25.4" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="6-MR_PN" value=" " x="5.08" y="25.4" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="8.89" y="25.4" size="0.8128" layer="26" ratio="12" rot="MR270" align="top-center"/>
 </element>
-<element name="C8" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0402" package3d_urn="urn:adsk.eagle:package:6240340/1" value="0.1uF" x="4.445" y="21.59" smashed="yes" rot="MR180">
+<element name="C8" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="0402" package3d_urn="urn:adsk.eagle:package:16500214/3" value="0.1uF" x="4.445" y="21.59" smashed="yes" rot="MR180">
+<attribute name="0-DESC" value=" " x="4.445" y="21.59" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="1-MN" value=" " x="4.445" y="21.59" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="2-MPN" value=" " x="4.445" y="21.59" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="3-ALT_MN" value=" " x="4.445" y="21.59" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="4-ALT_MPN" value=" " x="4.445" y="21.59" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="5-DK_PN" value=" " x="4.445" y="21.59" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="6-MR_PN" value=" " x="4.445" y="21.59" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="6.223" y="21.082" size="0.8128" layer="26" ratio="19" rot="MR90"/>
 <attribute name="VALUE" x="3.81" y="23.495" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="J4" library="Clock" package="CONN_00010C4LF" value="20021121-00010C4LF" x="56.769" y="11.303" smashed="yes" rot="MR0">
-<attribute name="BUILT_BY" value="EMA_Matt" x="56.769" y="11.303" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="56.769" y="11.303" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="20021121-00010C4LF" x="56.769" y="11.303" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="J4" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="CONN_00010C4LF" package3d_urn="urn:adsk.eagle:package:16489984/3" value="CORTEX-M_DEBUG_HEADER" x="56.769" y="11.303" smashed="yes" rot="MR0">
+<attribute name="0-DESC" value="CONN HEADER SMD 10POS 1.27MM" x="56.769" y="11.303" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="1-MN" value="Amphenol" x="56.769" y="11.303" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="2-MPN" value="20021121-00010C4LF" x="56.769" y="11.303" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="3-ALT_MN" value=" " x="56.769" y="11.303" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="4-ALT_MPN" value=" " x="56.769" y="11.303" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="5-DK_PN" value="609-3695-1-ND" x="56.769" y="11.303" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="6-MR_PN" value="649-202112100010C4LF" x="56.769" y="11.303" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="63.0682" y="8.9154" size="0.8128" layer="26" ratio="19" rot="SMR90"/>
-<attribute name="VENDOR" value="Amphenol" x="56.769" y="11.303" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="TP9" library="Clock" package="R-1-CR" value="POGO" x="34.29" y="2.54" smashed="yes"/>
+<element name="TP9" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="R-1-CR" package3d_urn="urn:adsk.eagle:package:16489970/2" value="POGO" x="34.29" y="2.54" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -13739,29 +13821,19 @@ design rules under a new name.</description>
 <vertex x="69.85" y="43.18"/>
 <vertex x="-2.54" y="43.18"/>
 </polygon>
-<contactref element="J2" pad="3A"/>
-<contactref element="J2" pad="3B"/>
-<contactref element="C1" pad="2"/>
-<contactref element="C2" pad="2"/>
-<contactref element="J1" pad="1"/>
+<contactref element="C1" pad="P$2"/>
+<contactref element="C2" pad="P$2"/>
 <contactref element="U1" pad="23"/>
-<contactref element="U1" pad="25"/>
-<contactref element="C3" pad="2"/>
 <contactref element="B1" pad="2A"/>
 <contactref element="B1" pad="2B"/>
-<contactref element="CR1" pad="2"/>
-<contactref element="U2" pad="1"/>
-<contactref element="C5" pad="2"/>
-<contactref element="C4" pad="2"/>
+<contactref element="C5" pad="P$2"/>
+<contactref element="C4" pad="P$2"/>
 <contactref element="J3" pad="5"/>
-<contactref element="C6" pad="2"/>
-<contactref element="C7" pad="2"/>
-<wire x1="58.801" y1="27.2415" x2="58.801" y2="25.781" width="0.3048" layer="16"/>
-<wire x1="58.293" y1="25.273" x2="58.039" y2="25.273" width="0.3048" layer="16"/>
-<wire x1="58.801" y1="25.781" x2="58.293" y2="25.273" width="0.3048" layer="16"/>
+<contactref element="C6" pad="P$2"/>
+<contactref element="C7" pad="P$2"/>
 <contactref element="TP8" pad="P$1"/>
 <contactref element="L3" pad="1"/>
-<contactref element="C8" pad="2"/>
+<contactref element="C8" pad="P$2"/>
 <via x="3.81" y="13.97" extent="1-16" drill="0.5"/>
 <via x="60.96" y="30.48" extent="1-16" drill="0.5"/>
 <via x="45.72" y="30.48" extent="1-16" drill="0.5"/>
@@ -13773,71 +13845,41 @@ design rules under a new name.</description>
 <via x="37.338" y="35.433" extent="1-16" drill="0.5"/>
 <contactref element="J4" pad="3"/>
 <contactref element="J4" pad="5"/>
+<contactref element="U2" pad="1"/>
+<contactref element="J2" pad="3A"/>
+<contactref element="J2" pad="3B"/>
+<contactref element="J1" pad="1"/>
+<contactref element="U1" pad="25"/>
+<contactref element="C3" pad="P$2"/>
+<wire x1="58.801" y1="27.2415" x2="58.801" y2="26.035" width="0.3048" layer="16"/>
+<wire x1="58.801" y1="26.035" x2="58.039" y2="25.273" width="0.3048" layer="16"/>
 </signal>
 <signal name="VCC">
 <contactref element="L1" pad="3"/>
 <contactref element="L2" pad="3"/>
-<contactref element="J2" pad="1B"/>
-<contactref element="J2" pad="1A"/>
-<contactref element="C1" pad="1"/>
-<contactref element="C2" pad="1"/>
+<contactref element="C1" pad="P$1"/>
 <contactref element="J1" pad="3"/>
 <contactref element="U1" pad="24"/>
-<contactref element="C3" pad="1"/>
-<contactref element="R1" pad="2"/>
-<contactref element="U2" pad="2"/>
-<contactref element="C5" pad="1"/>
-<contactref element="CR1" pad="5"/>
-<wire x1="49.403" y1="33.44" x2="49.53" y2="33.313" width="0.4064" layer="16"/>
-<wire x1="49.53" y1="33.313" x2="49.53" y2="30.965" width="0.4064" layer="16"/>
-<wire x1="49.403" y1="33.44" x2="46.99" y2="33.44" width="0.3048" layer="16"/>
-<wire x1="19.685" y1="36.18" x2="20.635" y2="35.23" width="0.3048" layer="16"/>
-<wire x1="20.635" y1="35.23" x2="21.68" y2="35.23" width="0.3048" layer="16"/>
-<wire x1="38.735" y1="36.18" x2="39.685" y2="35.23" width="0.3048" layer="16"/>
+<wire x1="38.735" y1="36.322" x2="39.685" y2="35.23" width="0.3048" layer="16"/>
 <wire x1="39.685" y1="35.23" x2="40.73" y2="35.23" width="0.3048" layer="16"/>
 <wire x1="59.309" y1="27.2415" x2="59.309" y2="27.813" width="0.3048" layer="16"/>
 <wire x1="59.309" y1="27.813" x2="59.563" y2="28.067" width="0.3048" layer="16"/>
-<wire x1="59.563" y1="28.067" x2="60.437" y2="28.067" width="0.3048" layer="16"/>
-<wire x1="50.165" y1="29.21" x2="54.102" y2="29.21" width="0.3048" layer="16"/>
 <via x="46.99" y="33.44" extent="1-16" drill="0.6"/>
 <wire x1="46.99" y1="33.44" x2="46.99" y2="21.59" width="0.4064" layer="1"/>
 <wire x1="46.99" y1="21.59" x2="44.45" y2="19.05" width="0.4064" layer="1"/>
-<wire x1="44.45" y1="19.05" x2="10.2362" y2="19.05" width="0.4064" layer="1"/>
-<wire x1="10.2362" y1="19.05" x2="3.81" y2="19.05" width="0.4064" layer="1"/>
-<wire x1="3.81" y1="19.05" x2="1.1938" y2="19.05" width="0.4064" layer="1"/>
 <wire x1="63.9826" y1="19.05" x2="58.42" y2="19.05" width="0.4064" layer="1"/>
 <wire x1="58.42" y1="19.05" x2="49.53" y2="19.05" width="0.4064" layer="1"/>
 <wire x1="49.53" y1="19.05" x2="46.99" y2="21.59" width="0.4064" layer="1"/>
 <wire x1="46.99" y1="33.44" x2="46.99" y2="35.687" width="0.3048" layer="16"/>
 <wire x1="46.99" y1="35.687" x2="46.482" y2="36.195" width="0.3048" layer="16"/>
 <wire x1="46.482" y1="36.195" x2="38.75" y2="36.195" width="0.3048" layer="16"/>
-<wire x1="38.75" y1="36.195" x2="38.735" y2="36.18" width="0.3048" layer="16"/>
-<wire x1="28.56" y1="36.18" x2="19.685" y2="36.18" width="0.3048" layer="16"/>
-<wire x1="29.845" y1="33.513" x2="28.56" y2="34.798" width="0.3048" layer="16"/>
-<wire x1="28.56" y1="34.798" x2="28.56" y2="36.18" width="0.3048" layer="16"/>
+<wire x1="38.75" y1="36.195" x2="38.735" y2="36.322" width="0.3048" layer="16"/>
 <contactref element="L3" pad="3"/>
-<via x="3.81" y="19.05" extent="1-16" drill="0.5"/>
-<contactref element="C8" pad="1"/>
 <wire x1="2.63" y1="23.8" x2="2.63" y2="23.151" width="0.3048" layer="16"/>
-<wire x1="3.795" y1="21.986" x2="3.795" y2="21.59" width="0.3048" layer="16"/>
-<wire x1="2.63" y1="23.151" x2="3.795" y2="21.986" width="0.3048" layer="16"/>
-<wire x1="3.795" y1="21.59" x2="3.81" y2="21.575" width="0.3048" layer="16"/>
-<wire x1="3.81" y1="21.575" x2="3.81" y2="19.05" width="0.3048" layer="16"/>
-<wire x1="58.039" y1="30.861" x2="58.039" y2="30.3403" width="0.3048" layer="16"/>
-<via x="54.102" y="29.21" extent="1-16" drill="0.5"/>
-<wire x1="57.785" y1="31.115" x2="58.039" y2="30.861" width="0.3048" layer="16"/>
-<wire x1="54.102" y1="29.21" x2="59.69" y2="29.21" width="0.3048" layer="1"/>
-<via x="59.69" y="29.21" extent="1-16" drill="0.5"/>
-<wire x1="60.437" y1="28.067" x2="60.437" y2="28.717" width="0.3048" layer="16"/>
-<wire x1="59.944" y1="29.21" x2="59.69" y2="29.21" width="0.3048" layer="16"/>
-<wire x1="60.437" y1="28.717" x2="59.944" y2="29.21" width="0.3048" layer="16"/>
-<wire x1="56.007" y1="31.115" x2="57.785" y2="31.115" width="0.3048" layer="16"/>
-<wire x1="54.102" y1="29.21" x2="56.007" y2="31.115" width="0.3048" layer="16"/>
-<wire x1="49.53" y1="30.965" x2="49.53" y2="29.845" width="0.3048" layer="16"/>
-<wire x1="49.53" y1="29.845" x2="50.165" y2="29.21" width="0.3048" layer="16"/>
 <wire x1="30.7898" y1="38.4098" x2="36.5052" y2="38.4098" width="0.3048" layer="16"/>
-<wire x1="28.56" y1="36.18" x2="30.7898" y2="38.4098" width="0.3048" layer="16"/>
-<wire x1="36.5052" y1="38.4098" x2="38.735" y2="36.18" width="0.3048" layer="16"/>
+<wire x1="30.7898" y1="38.4098" x2="28.575" y2="36.195" width="0.3048" layer="16"/>
+<wire x1="28.575" y1="36.195" x2="28.56" y2="36.18" width="0.3048" layer="16"/>
+<wire x1="36.5052" y1="38.4098" x2="38.735" y2="36.322" width="0.3048" layer="16"/>
 <contactref element="J4" pad="1"/>
 <wire x1="61.849" y1="7.402996875" x2="61.849" y2="8.763" width="0.3048" layer="16"/>
 <wire x1="62.611" y1="16.129" x2="60.96" y2="17.78" width="0.3048" layer="16"/>
@@ -13850,6 +13892,42 @@ design rules under a new name.</description>
 <wire x1="52.07" y1="2.54" x2="52.07" y2="5.588" width="0.3048" layer="16"/>
 <wire x1="62.611" y1="9.525" x2="56.007" y2="9.525" width="0.3048" layer="16"/>
 <wire x1="56.007" y1="9.525" x2="52.07" y2="5.588" width="0.3048" layer="16"/>
+<contactref element="U2" pad="2"/>
+<contactref element="U2" pad="4"/>
+<contactref element="R1" pad="P$2"/>
+<contactref element="C3" pad="P$1"/>
+<contactref element="C2" pad="P$1"/>
+<contactref element="C8" pad="P$1"/>
+<contactref element="C5" pad="P$1"/>
+<contactref element="J2" pad="1A"/>
+<contactref element="J2" pad="1B"/>
+<wire x1="49.53" y1="30.965" x2="49.403" y2="31.092" width="0.4064" layer="16"/>
+<wire x1="49.403" y1="31.092" x2="49.403" y2="33.782" width="0.4064" layer="16"/>
+<wire x1="49.403" y1="33.782" x2="49.061" y2="33.44" width="0.4064" layer="16"/>
+<wire x1="49.061" y1="33.44" x2="46.99" y2="33.44" width="0.4064" layer="16"/>
+<wire x1="28.56" y1="34.051" x2="28.956" y2="33.655" width="0.3048" layer="16"/>
+<wire x1="28.956" y1="33.655" x2="29.845" y2="33.655" width="0.3048" layer="16"/>
+<wire x1="28.56" y1="36.18" x2="28.56" y2="34.051" width="0.3048" layer="16"/>
+<wire x1="28.575" y1="36.195" x2="22.645" y2="36.195" width="0.3048" layer="16"/>
+<wire x1="22.645" y1="36.195" x2="21.68" y2="35.23" width="0.3048" layer="16"/>
+<wire x1="20.015" y1="35.23" x2="19.685" y2="35.56" width="0.3048" layer="16"/>
+<wire x1="19.685" y1="35.56" x2="19.685" y2="36.322" width="0.3048" layer="16"/>
+<wire x1="21.68" y1="35.23" x2="20.015" y2="35.23" width="0.3048" layer="16"/>
+<wire x1="19.685" y1="36.322" x2="11.303" y2="27.94" width="0.3048" layer="16"/>
+<wire x1="11.303" y1="27.94" x2="6.35" y2="27.94" width="0.3048" layer="16"/>
+<wire x1="6.35" y1="27.94" x2="2.63" y2="24.22" width="0.3048" layer="16"/>
+<wire x1="2.63" y1="24.22" x2="2.63" y2="23.8" width="0.3048" layer="16"/>
+<wire x1="3.937" y1="21.844" x2="3.937" y2="21.59" width="0.3048" layer="16"/>
+<wire x1="2.63" y1="23.151" x2="3.937" y2="21.844" width="0.3048" layer="16"/>
+<wire x1="44.45" y1="19.05" x2="10.2362" y2="19.05" width="0.4064" layer="1"/>
+<wire x1="10.2362" y1="19.05" x2="1.1938" y2="19.05" width="0.4064" layer="1"/>
+<wire x1="59.563" y1="28.067" x2="60.579" y2="28.067" width="0.3048" layer="16"/>
+<wire x1="61.4426" y1="23.27779375" x2="62.23" y2="22.49039375" width="0.3048" layer="16"/>
+<wire x1="60.579" y1="28.067" x2="61.4426" y2="27.2034" width="0.3048" layer="16"/>
+<wire x1="61.4426" y1="27.2034" x2="61.4426" y2="23.27779375" width="0.3048" layer="16"/>
+<wire x1="62.23" y1="19.05" x2="60.96" y2="17.78" width="0.3048" layer="16"/>
+<wire x1="62.23" y1="22.49039375" x2="62.23" y2="19.05" width="0.3048" layer="16"/>
+<wire x1="49.53" y1="30.965" x2="49.53" y2="24.915" width="0.4064" layer="16"/>
 </signal>
 <signal name="DOUT">
 <contactref element="TP6" pad="P$1"/>
@@ -13870,37 +13948,23 @@ design rules under a new name.</description>
 <via x="55.88" y="16.51" extent="1-16" drill="0.5"/>
 <wire x1="55.88" y1="16.51" x2="63.9826" y2="16.51" width="0.3048" layer="1"/>
 </signal>
-<signal name="USB_D+">
-<contactref element="U1" pad="22"/>
-<contactref element="CR1" pad="4"/>
-<wire x1="58.293" y1="29.61715" x2="58.293" y2="27.2415" width="0.3048" layer="16"/>
-<wire x1="58.539" y1="30.3403" x2="58.539" y2="29.86315" width="0.3048" layer="16"/>
-<wire x1="58.539" y1="29.86315" x2="58.293" y2="29.61715" width="0.3048" layer="16"/>
-</signal>
-<signal name="USB_D-">
-<contactref element="U1" pad="21"/>
-<contactref element="CR1" pad="6"/>
-<wire x1="57.785" y1="29.61715" x2="57.785" y2="27.2415" width="0.3048" layer="16"/>
-<wire x1="57.539" y1="30.3403" x2="57.539" y2="29.86315" width="0.3048" layer="16"/>
-<wire x1="57.539" y1="29.86315" x2="57.785" y2="29.61715" width="0.3048" layer="16"/>
-</signal>
 <signal name="N$4">
 <contactref element="U1" pad="7"/>
-<contactref element="C6" pad="1"/>
-<contactref element="X1" pad="1"/>
+<contactref element="C6" pad="P$1"/>
 <wire x1="59.309" y1="23.3045" x2="59.309" y2="22.718" width="0.1524" layer="16"/>
-<wire x1="59.309" y1="22.718" x2="59.929" y2="22.098" width="0.1524" layer="16"/>
-<wire x1="59.929" y1="22.098" x2="59.505" y2="21.674" width="0.1524" layer="16"/>
-<wire x1="59.505" y1="21.674" x2="59.505" y2="20.803" width="0.1524" layer="16"/>
+<wire x1="59.309" y1="22.718" x2="60.071" y2="22.098" width="0.1524" layer="16"/>
+<contactref element="X1" pad="1"/>
+<wire x1="60.071" y1="22.098" x2="59.505" y2="21.532" width="0.1524" layer="16"/>
+<wire x1="59.505" y1="21.532" x2="59.505" y2="20.803" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$5">
 <contactref element="U1" pad="8"/>
-<contactref element="C7" pad="1"/>
-<contactref element="X1" pad="4"/>
+<contactref element="C7" pad="P$1"/>
 <wire x1="58.801" y1="23.3045" x2="58.801" y2="22.718" width="0.1524" layer="16"/>
-<wire x1="58.801" y1="22.718" x2="58.181" y2="22.098" width="0.1524" layer="16"/>
-<wire x1="58.181" y1="22.098" x2="58.605" y2="21.674" width="0.1524" layer="16"/>
-<wire x1="58.605" y1="21.674" x2="58.605" y2="20.803" width="0.1524" layer="16"/>
+<wire x1="58.801" y1="22.718" x2="58.039" y2="22.098" width="0.1524" layer="16"/>
+<contactref element="X1" pad="4"/>
+<wire x1="58.039" y1="22.098" x2="58.605" y2="21.532" width="0.1524" layer="16"/>
+<wire x1="58.605" y1="21.532" x2="58.605" y2="20.803" width="0.1524" layer="16"/>
 </signal>
 <signal name="SWDIO">
 <contactref element="U1" pad="20"/>
@@ -13949,11 +14013,11 @@ design rules under a new name.</description>
 <wire x1="60.198" y1="12.827" x2="60.579" y2="12.446" width="0.3048" layer="16"/>
 </signal>
 <signal name="RESET">
-<contactref element="R1" pad="1"/>
+<contactref element="R1" pad="P$1"/>
 <contactref element="U1" pad="18"/>
 <contactref element="B1" pad="1A"/>
 <contactref element="B1" pad="1B"/>
-<wire x1="29.845" y1="34.813" x2="29.845" y2="35.56" width="0.3048" layer="16"/>
+<wire x1="29.845" y1="34.671" x2="29.845" y2="35.56" width="0.3048" layer="16"/>
 <wire x1="30.39" y1="36.105" x2="31.855" y2="36.105" width="0.3048" layer="16"/>
 <wire x1="29.845" y1="35.56" x2="30.39" y2="36.105" width="0.3048" layer="16"/>
 <wire x1="31.855" y1="36.105" x2="35.43" y2="36.105" width="0.3048" layer="16"/>
@@ -14026,17 +14090,8 @@ design rules under a new name.</description>
 <contactref element="U1" pad="5"/>
 </signal>
 <signal name="VIN">
-<contactref element="U2" pad="3"/>
-<contactref element="C4" pad="1"/>
-<contactref element="J3" pad="1"/>
-<wire x1="57.118428125" y1="35.34221875" x2="57.118428125" y2="34.258428125" width="0.4064" layer="16"/>
-<wire x1="56.3" y1="33.44" x2="51.943" y2="33.44" width="0.4064" layer="16"/>
-<wire x1="57.118428125" y1="34.258428125" x2="56.3" y2="33.44" width="0.4064" layer="16"/>
-<wire x1="51.83" y1="30.965" x2="51.83" y2="33.327" width="0.4064" layer="16"/>
-<wire x1="51.83" y1="33.327" x2="51.943" y2="33.44" width="0.4064" layer="16"/>
 <contactref element="TP9" pad="P$1"/>
-<wire x1="57.118428125" y1="35.34221875" x2="57.118428125" y2="36.163428125" width="0.4064" layer="16"/>
-<wire x1="57.118428125" y1="36.163428125" x2="57.531" y2="36.576" width="0.4064" layer="16"/>
+<wire x1="57.531" y1="36.576" x2="57.118428125" y2="36.163428125" width="0.4064" layer="16"/>
 <wire x1="66.04" y1="11.43" x2="64.77" y2="10.16" width="0.4064" layer="16"/>
 <via x="64.77" y="10.16" extent="1-16" drill="0.6"/>
 <wire x1="64.77" y1="10.16" x2="36.83" y2="10.16" width="0.4064" layer="1"/>
@@ -14045,21 +14100,28 @@ design rules under a new name.</description>
 <wire x1="63.754" y1="36.576" x2="66.04" y2="34.29" width="0.4064" layer="16"/>
 <wire x1="57.531" y1="36.576" x2="63.754" y2="36.576" width="0.4064" layer="16"/>
 <wire x1="66.04" y1="34.29" x2="66.04" y2="11.43" width="0.4064" layer="16"/>
+<contactref element="J3" pad="1"/>
+<contactref element="U2" pad="3"/>
+<contactref element="C4" pad="P$1"/>
+<wire x1="57.118428125" y1="36.163428125" x2="57.118428125" y2="35.34221875" width="0.4064" layer="16"/>
+<wire x1="57.118428125" y1="35.34221875" x2="57.118428125" y2="34.385428125" width="0.4064" layer="16"/>
+<wire x1="57.118428125" y1="34.385428125" x2="56.515" y2="33.782" width="0.4064" layer="16"/>
+<wire x1="56.515" y1="33.782" x2="51.943" y2="33.782" width="0.4064" layer="16"/>
+<wire x1="51.943" y1="33.782" x2="51.943" y2="31.078" width="0.4064" layer="16"/>
+<wire x1="51.943" y1="31.078" x2="51.83" y2="30.965" width="0.4064" layer="16"/>
 </signal>
-<signal name="N$3">
+<signal name="D-">
 <contactref element="J3" pad="2"/>
-<contactref element="CR1" pad="1"/>
-<wire x1="57.785" y1="35.325646875" x2="57.768428125" y2="35.34221875" width="0.1524" layer="16"/>
-<wire x1="57.539" y1="32.3977" x2="57.539" y2="33.282" width="0.3048" layer="16"/>
-<wire x1="57.785" y1="33.528" x2="57.785" y2="35.325646875" width="0.3048" layer="16"/>
-<wire x1="57.539" y1="33.282" x2="57.785" y2="33.528" width="0.3048" layer="16"/>
+<wire x1="57.768428125" y1="35.34221875" x2="57.785" y2="35.325646875" width="0.1524" layer="16"/>
+<contactref element="U1" pad="21"/>
+<wire x1="57.785" y1="35.325646875" x2="57.785" y2="27.2415" width="0.3048" layer="16"/>
 </signal>
-<signal name="N$1">
+<signal name="D+">
 <contactref element="J3" pad="3"/>
-<contactref element="CR1" pad="3"/>
-<wire x1="58.539" y1="32.3977" x2="58.539" y2="33.409" width="0.3048" layer="16"/>
-<wire x1="58.418428125" y1="33.529571875" x2="58.418428125" y2="35.34221875" width="0.3048" layer="16"/>
-<wire x1="58.539" y1="33.409" x2="58.418428125" y2="33.529571875" width="0.3048" layer="16"/>
+<wire x1="58.418428125" y1="35.34221875" x2="58.418428125" y2="34.418571875" width="0.3048" layer="16"/>
+<contactref element="U1" pad="22"/>
+<wire x1="58.418428125" y1="34.418571875" x2="58.293" y2="34.29314375" width="0.3048" layer="16"/>
+<wire x1="58.293" y1="34.29314375" x2="58.293" y2="27.2415" width="0.3048" layer="16"/>
 </signal>
 <signal name="DIN2">
 <contactref element="TP2" pad="P$1"/>
@@ -14107,6 +14169,44 @@ design rules under a new name.</description>
 <approved hash="19,16,9ee5910a7e8caa4e"/>
 <approved hash="19,16,120278ea3ceb97ec"/>
 <approved hash="4,16,40efc10602248499"/>
+<approved hash="4,1,083422fdad022216"/>
+<approved hash="4,1,1e0c3d1738fa1e0c"/>
+<approved hash="4,1,39bbe6c9840a87e2"/>
+<approved hash="4,1,93048f5d5782de62"/>
+<approved hash="4,1,62896480b8bcbeb5"/>
+<approved hash="4,1,b42fb7324efec22c"/>
+<approved hash="4,1,820d851bf927fe31"/>
+<approved hash="4,1,ed3c5d6585850e5e"/>
+<approved hash="4,1,278350eb0e1333df"/>
+<approved hash="4,1,8a8f8c87c0bbc6b3"/>
+<approved hash="4,1,620e6506b93abe32"/>
+<approved hash="4,1,9215d0d807023a33"/>
+<approved hash="4,16,b1a829a54f9c385a"/>
+<approved hash="4,16,083422fdad022216"/>
+<approved hash="4,16,6f35366e381dfda6"/>
+<approved hash="4,16,62896480b8bcbeb5"/>
+<approved hash="4,16,795b815cf49a119d"/>
+<approved hash="4,16,d71a6cde0d63e630"/>
+<approved hash="4,16,a106d87e5bdca344"/>
+<approved hash="4,16,1e0c3d1738fa1e0c"/>
+<approved hash="4,16,39bbe6c9840a87e2"/>
+<approved hash="4,16,93048f5d5782de62"/>
+<approved hash="4,16,b42fb7324efec22c"/>
+<approved hash="4,16,8a8f8c87c0bbc6b3"/>
+<approved hash="4,16,620e6506b93abe32"/>
+<approved hash="4,16,9215d0d807023a33"/>
+<approved hash="4,16,39bbe6c9840a87e2"/>
+<approved hash="4,16,93048f5d5782de62"/>
+<approved hash="4,16,17723f1324630fe0"/>
+<approved hash="4,16,be864cca6e0b85cb"/>
+<approved hash="4,16,620e6506b93abe32"/>
+<approved hash="4,16,cb9933bae182ecbc"/>
+<approved hash="4,16,62896480b8bcbeb5"/>
+<approved hash="4,16,820d851bf927fe31"/>
+<approved hash="4,16,ed3c5d6585850e5e"/>
+<approved hash="4,16,278350eb0e1333df"/>
+<approved hash="4,1,c67de464bacd976d"/>
+<approved hash="4,1,145b166122cdeb56"/>
 </errors>
 </board>
 </drawing>
@@ -14115,6 +14215,11 @@ design rules under a new name.</description>
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports Fusion synchronisation.
+This feature will not be available in this version and saving
+the document will break the link to the Fusion PCB feature.
 </note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
