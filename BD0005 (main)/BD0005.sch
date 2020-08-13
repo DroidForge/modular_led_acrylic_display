@@ -1005,7 +1005,7 @@
 <pin name="9" x="-2.54" y="-10.16" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="10" x="-2.54" y="-12.7" visible="pad" length="short" direction="pas" function="dot"/>
 </symbol>
-<symbol name="ATSAMD21E__A-MU" urn="urn:adsk.eagle:symbol:22346257/2" locally_modified="yes" library_version="12" library_locally_modified="yes">
+<symbol name="ATSAMD21E__A-MU" urn="urn:adsk.eagle:symbol:22346257/3" library_version="13">
 <pin name="PA00" x="-15.24" y="5.08" length="short"/>
 <pin name="PA01" x="-15.24" y="2.54" length="short"/>
 <pin name="PA02" x="-15.24" y="0" length="short"/>
@@ -1609,7 +1609,7 @@ With round pins</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SAMD21E__A-MU" urn="urn:adsk.eagle:component:22346260/2" prefix="U" library_version="12" library_locally_modified="yes">
+<deviceset name="SAMD21E__A-MU" urn="urn:adsk.eagle:component:22346260/3" prefix="U" library_version="13">
 <gates>
 <gate name="A" symbol="ATSAMD21E__A-MU" x="0" y="0"/>
 </gates>
@@ -1820,6 +1820,7 @@ With round pins</description>
 <part name="C26" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" deviceset="CAPACITOR" device="-0402" package3d_urn="urn:adsk.eagle:package:16500214/3" value="0.1uF"/>
 <part name="C27" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" deviceset="CAPACITOR" device="-0402" package3d_urn="urn:adsk.eagle:package:16500214/3" value="0.1uF"/>
 <part name="GND14" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" deviceset="GND" device="" value="GND"/>
+<part name="SUPPLY6" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2132,6 +2133,9 @@ With round pins</description>
 <attribute name="VALUE" x="-9.144" y="-42.291" size="1.778" layer="96"/>
 </instance>
 <instance part="GND14" gate="G$1" x="-20.32" y="-48.26" smashed="yes"/>
+<instance part="SUPPLY6" gate="G$1" x="-27.94" y="-27.94" smashed="yes">
+<attribute name="VALUE" x="-30.48" y="-27.178" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -2582,6 +2586,23 @@ With round pins</description>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="P+1" gate="G$1" pin="VCC"/>
 <wire x1="33.02" y1="25.4" x2="33.02" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="U3" gate="A" pin="VDDIN"/>
+<wire x1="-30.48" y1="-35.56" x2="-30.48" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="-30.48" x2="-27.94" y2="-30.48" width="0.1524" layer="91"/>
+<pinref part="SUPPLY6" gate="G$1" pin="VCC"/>
+<wire x1="-27.94" y1="-30.48" x2="-15.24" y2="-30.48" width="0.1524" layer="91"/>
+<junction x="-27.94" y="-30.48"/>
+<pinref part="C26" gate="G$1" pin="1"/>
+<wire x1="-20.32" y1="-35.56" x2="-20.32" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="-33.02" x2="-12.7" y2="-33.02" width="0.1524" layer="91"/>
+<pinref part="U3" gate="A" pin="VDDANA"/>
+<wire x1="-12.7" y1="-33.02" x2="-12.7" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="-33.02" x2="-27.94" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="-33.02" x2="-27.94" y2="-30.48" width="0.1524" layer="91"/>
+<junction x="-20.32" y="-33.02"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -3064,23 +3085,6 @@ With round pins</description>
 <wire x1="10.16" y1="7.62" x2="12.7" y2="7.62" width="0.1524" layer="91"/>
 <label x="12.7" y="7.62" size="1.778" layer="95"/>
 <pinref part="U3" gate="A" pin="PA25"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="C3" gate="G$1" pin="1"/>
-<pinref part="U3" gate="A" pin="VDDIN"/>
-<wire x1="-30.48" y1="-35.56" x2="-30.48" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="-30.48" y1="-30.48" x2="-15.24" y2="-30.48" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="C26" gate="G$1" pin="1"/>
-<wire x1="-20.32" y1="-35.56" x2="-20.32" y2="-33.02" width="0.1524" layer="91"/>
-<wire x1="-20.32" y1="-33.02" x2="-12.7" y2="-33.02" width="0.1524" layer="91"/>
-<pinref part="U3" gate="A" pin="VDDANA"/>
-<wire x1="-12.7" y1="-33.02" x2="-12.7" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
