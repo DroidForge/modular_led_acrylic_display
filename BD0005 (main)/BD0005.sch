@@ -473,7 +473,7 @@
 <rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
 </package>
-<package name="QFN32_5X5MC_MCH" urn="urn:adsk.eagle:footprint:22346258/1" library_version="10" library_locally_modified="yes">
+<package name="QFN32_5X5MC_MCH" urn="urn:adsk.eagle:footprint:22346258/2" library_version="14">
 <smd name="1" x="-2.4487" y="1.778" dx="0.2548" dy="0.808" layer="1" rot="R270"/>
 <smd name="2" x="-2.4487" y="1.27" dx="0.2548" dy="0.808" layer="1" rot="R270"/>
 <smd name="3" x="-2.4487" y="0.762" dx="0.2548" dy="0.808" layer="1" rot="R270"/>
@@ -648,24 +648,6 @@
 <wire x1="2.4892" y1="-2.4892" x2="2.4892" y2="2.4892" width="0.1524" layer="51"/>
 <wire x1="2.4892" y1="2.4892" x2="-2.4892" y2="2.4892" width="0.1524" layer="51"/>
 <wire x1="-2.4892" y1="2.4892" x2="-2.4892" y2="-2.4892" width="0.1524" layer="51"/>
-<polygon width="0.0254" layer="21">
-<vertex x="-1.4605" y="-3.1067"/>
-<vertex x="-1.4605" y="-3.3607"/>
-<vertex x="-1.0795" y="-3.3607"/>
-<vertex x="-1.0795" y="-3.1067"/>
-</polygon>
-<polygon width="0.0254" layer="21">
-<vertex x="3.3607" y="-0.0635"/>
-<vertex x="3.3607" y="-0.4445"/>
-<vertex x="3.1067" y="-0.4445"/>
-<vertex x="3.1067" y="-0.0635"/>
-</polygon>
-<polygon width="0.0254" layer="21">
-<vertex x="-0.9525" y="3.1067"/>
-<vertex x="-0.9525" y="3.3607"/>
-<vertex x="-0.5715" y="3.3607"/>
-<vertex x="-0.5715" y="3.1067"/>
-</polygon>
 <polygon width="0.0254" layer="31">
 <vertex x="-1.6018" y="1.6018"/>
 <vertex x="-1.6018" y="0.1"/>
@@ -690,10 +672,9 @@
 <vertex x="1.6018" y="-1.6018"/>
 <vertex x="1.6018" y="-0.1"/>
 </polygon>
-<text x="-4.064" y="1.397" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
-<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
-<text x="-2.6162" y="1.397" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
-<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-2.9972" y="-3.175" size="0.8128" layer="21" ratio="19" rot="SR0" align="top-left">&gt;Value</text>
+<text x="-2.0066" y="3.175" size="0.8128" layer="25" ratio="19" rot="SR0">&gt;Name</text>
+<circle x="-2.54" y="2.54" radius="0.3048" width="0.1524" layer="21"/>
 </package>
 <package name="WS2812B_3535" urn="urn:adsk.eagle:footprint:20063547/1" library_version="10" library_locally_modified="yes">
 <circle x="0" y="0" radius="1.4" width="0.127" layer="51"/>
@@ -803,7 +784,7 @@
 <packageinstance name="1X03-CLEANBIG"/>
 </packageinstances>
 </package3d>
-<package3d name="QFN32_5X5MC_MCH" urn="urn:adsk.eagle:package:22346259/1" type="box" library_version="10" library_locally_modified="yes">
+<package3d name="QFN32_5X5MC_MCH" urn="urn:adsk.eagle:package:22346259/2" type="box" library_version="14">
 <packageinstances>
 <packageinstance name="QFN32_5X5MC_MCH"/>
 </packageinstances>
@@ -1609,7 +1590,7 @@ With round pins</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SAMD21E__A-MU" urn="urn:adsk.eagle:component:22346260/3" prefix="U" library_version="13">
+<deviceset name="SAMD21E__A-MU" urn="urn:adsk.eagle:component:22346260/4" prefix="U" library_version="14">
 <gates>
 <gate name="A" symbol="ATSAMD21E__A-MU" x="0" y="0"/>
 </gates>
@@ -1651,7 +1632,7 @@ With round pins</description>
 <connect gate="A" pin="VDDIN" pad="30"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22346259/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:22346259/2"/>
 </package3dinstances>
 <technologies>
 <technology name="_15(32K)">
@@ -1807,7 +1788,7 @@ With round pins</description>
 <part name="TP9" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" deviceset="TEST_POINT" device="" package3d_urn="urn:adsk.eagle:package:16489975/2" value="VIN"/>
 <part name="J1" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" deviceset="CONN_MICROUSB_FEMALE" device="" package3d_urn="urn:adsk.eagle:package:16489991/4"/>
 <part name="J2" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" deviceset="HEADER_1X3" device="" package3d_urn="urn:adsk.eagle:package:16508524/2"/>
-<part name="U3" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" deviceset="SAMD21E__A-MU" device="" package3d_urn="urn:adsk.eagle:package:22346259/1" technology="_16(64K)"/>
+<part name="U3" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" deviceset="SAMD21E__A-MU" device="" package3d_urn="urn:adsk.eagle:package:22346259/2" technology="_16(64K)"/>
 <part name="GND11" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" deviceset="GND" device="" value="GND"/>
 <part name="SUPPLY1" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" deviceset="VIN" device=""/>
 <part name="SUPPLY2" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" deviceset="VCC" device=""/>

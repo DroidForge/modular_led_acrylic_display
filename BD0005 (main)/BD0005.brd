@@ -28,8 +28,8 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
@@ -12975,6 +12975,10 @@
 <text x="14.732" y="29.21" size="0.8128" layer="21" ratio="19" rot="SR315" align="center-left">5V</text>
 <text x="17.272" y="29.21" size="0.8128" layer="21" ratio="19" rot="SR315" align="center-left">GND</text>
 <text x="19.812" y="29.21" size="0.8128" layer="21" ratio="19" rot="SR315" align="center-left">3.3V</text>
+<wire x1="42.672" y1="7.62" x2="43.307" y2="7.62" width="0.1524" layer="26"/>
+<wire x1="43.307" y1="7.62" x2="43.434" y2="7.493" width="0.1524" layer="26"/>
+<wire x1="44.6786" y1="3.429" x2="44.1198" y2="3.9878" width="0.1524" layer="26"/>
+<wire x1="43.2308" y1="3.3782" x2="44.0436" y2="2.2352" width="0.1524" layer="26"/>
 </plain>
 <libraries>
 <library name="DroidForge" urn="urn:adsk.eagle:library:16489927">
@@ -13198,7 +13202,7 @@
 <rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
 </package>
-<package name="QFN32_5X5MC_MCH" urn="urn:adsk.eagle:footprint:22346258/1" library_version="10" library_locally_modified="yes">
+<package name="QFN32_5X5MC_MCH" urn="urn:adsk.eagle:footprint:22346258/2" library_version="14">
 <smd name="1" x="-2.4487" y="1.778" dx="0.2548" dy="0.808" layer="1" rot="R270"/>
 <smd name="2" x="-2.4487" y="1.27" dx="0.2548" dy="0.808" layer="1" rot="R270"/>
 <smd name="3" x="-2.4487" y="0.762" dx="0.2548" dy="0.808" layer="1" rot="R270"/>
@@ -13373,24 +13377,6 @@
 <wire x1="2.4892" y1="-2.4892" x2="2.4892" y2="2.4892" width="0.1524" layer="51"/>
 <wire x1="2.4892" y1="2.4892" x2="-2.4892" y2="2.4892" width="0.1524" layer="51"/>
 <wire x1="-2.4892" y1="2.4892" x2="-2.4892" y2="-2.4892" width="0.1524" layer="51"/>
-<polygon width="0.0254" layer="21">
-<vertex x="-1.4605" y="-3.1067"/>
-<vertex x="-1.4605" y="-3.3607"/>
-<vertex x="-1.0795" y="-3.3607"/>
-<vertex x="-1.0795" y="-3.1067"/>
-</polygon>
-<polygon width="0.0254" layer="21">
-<vertex x="3.3607" y="-0.0635"/>
-<vertex x="3.3607" y="-0.4445"/>
-<vertex x="3.1067" y="-0.4445"/>
-<vertex x="3.1067" y="-0.0635"/>
-</polygon>
-<polygon width="0.0254" layer="21">
-<vertex x="-0.9525" y="3.1067"/>
-<vertex x="-0.9525" y="3.3607"/>
-<vertex x="-0.5715" y="3.3607"/>
-<vertex x="-0.5715" y="3.1067"/>
-</polygon>
 <polygon width="0.0254" layer="31">
 <vertex x="-1.6018" y="1.6018"/>
 <vertex x="-1.6018" y="0.1"/>
@@ -13415,10 +13401,9 @@
 <vertex x="1.6018" y="-1.6018"/>
 <vertex x="1.6018" y="-0.1"/>
 </polygon>
-<text x="-4.064" y="1.397" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
-<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
-<text x="-2.6162" y="1.397" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
-<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-2.9972" y="-3.175" size="0.8128" layer="21" ratio="19" rot="SR0" align="top-left">&gt;Value</text>
+<text x="-2.0066" y="3.175" size="0.8128" layer="25" ratio="19" rot="SR0">&gt;Name</text>
+<circle x="-2.54" y="2.54" radius="0.3048" width="0.1524" layer="21"/>
 </package>
 </packages>
 <packages3d>
@@ -13483,7 +13468,7 @@
 <packageinstance name="1X03-CLEANBIG"/>
 </packageinstances>
 </package3d>
-<package3d name="QFN32_5X5MC_MCH" urn="urn:adsk.eagle:package:22346259/1" type="box" library_version="10" library_locally_modified="yes">
+<package3d name="QFN32_5X5MC_MCH" urn="urn:adsk.eagle:package:22346259/2" type="box" library_version="14">
 <packageinstances>
 <packageinstance name="QFN32_5X5MC_MCH"/>
 </packageinstances>
@@ -13691,7 +13676,7 @@ design rules under a new name.</description>
 <attribute name="4-ALT_MPN" value=" " x="12.319" y="2.794" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="5-DK_PN" value=" " x="12.319" y="2.794" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="6-MR_PN" value=" " x="12.319" y="2.794" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="11.2776" y="2.5146" size="0.8128" layer="26" font="vector" ratio="19" rot="MR0"/>
+<attribute name="NAME" x="12.7254" y="4.9276" size="0.8128" layer="26" font="vector" ratio="19" rot="MR270"/>
 </element>
 <element name="R1" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="0402" package3d_urn="urn:adsk.eagle:package:16500214/3" value="10k" x="34.29" y="3.3782" smashed="yes" rot="MR0">
 <attribute name="0-DESC" value=" " x="34.29" y="3.3782" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -13701,7 +13686,7 @@ design rules under a new name.</description>
 <attribute name="4-ALT_MPN" value=" " x="34.29" y="3.3782" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="5-DK_PN" value=" " x="34.29" y="3.3782" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="6-MR_PN" value=" " x="34.29" y="3.3782" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="31.8516" y="3.9116" size="0.8128" layer="26" font="vector" ratio="19" rot="MR180"/>
+<attribute name="NAME" x="33.6296" y="2.8956" size="0.8128" layer="26" font="vector" ratio="19" rot="MR180"/>
 <attribute name="VALUE" x="34.925" y="1.3462" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="U2" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="SOT-223" package3d_urn="urn:adsk.eagle:package:16489990/3" value="REG_AP2114H-3.3TRG1" x="7.112" y="4.064" smashed="yes" rot="MR270">
@@ -13722,7 +13707,7 @@ design rules under a new name.</description>
 <attribute name="4-ALT_MPN" value=" " x="13.0556" y="6.9596" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="5-DK_PN" value=" " x="13.0556" y="6.9596" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="6-MR_PN" value=" " x="13.0556" y="6.9596" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="14.1732" y="7.0104" size="0.8128" layer="26" font="vector" ratio="19" rot="MR90"/>
+<attribute name="NAME" x="13.6652" y="6.7564" size="0.8128" layer="26" font="vector" ratio="19" rot="MR90"/>
 </element>
 <element name="C3" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="0402" package3d_urn="urn:adsk.eagle:package:16500214/3" value="0.1uF" x="41.6052" y="7.6454" smashed="yes" rot="MR180">
 <attribute name="0-DESC" value=" " x="41.6052" y="7.6454" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -13732,7 +13717,7 @@ design rules under a new name.</description>
 <attribute name="4-ALT_MPN" value=" " x="41.6052" y="7.6454" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="5-DK_PN" value=" " x="41.6052" y="7.6454" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="6-MR_PN" value=" " x="41.6052" y="7.6454" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="42.6974" y="7.8232" size="0.8128" layer="26" font="vector" ratio="19" rot="MR180"/>
+<attribute name="NAME" x="42.9514" y="7.3152" size="0.8128" layer="26" font="vector" ratio="19" rot="MR180"/>
 </element>
 <element name="C4" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="0402" package3d_urn="urn:adsk.eagle:package:16500214/3" value="22pF" x="43.5356" y="4.8006" smashed="yes" rot="MR235">
 <attribute name="0-DESC" value=" " x="43.5356" y="4.8006" size="1.778" layer="28" rot="MR235" display="off"/>
@@ -13742,7 +13727,7 @@ design rules under a new name.</description>
 <attribute name="4-ALT_MPN" value=" " x="43.5356" y="4.8006" size="1.778" layer="28" rot="MR235" display="off"/>
 <attribute name="5-DK_PN" value=" " x="43.5356" y="4.8006" size="1.778" layer="28" rot="MR235" display="off"/>
 <attribute name="6-MR_PN" value=" " x="43.5356" y="4.8006" size="1.778" layer="28" rot="MR235" display="off"/>
-<attribute name="NAME" x="44.25139375" y="4.929709375" size="0.8128" layer="26" font="vector" ratio="19" rot="MR55"/>
+<attribute name="NAME" x="45.01339375" y="2.135709375" size="0.8128" layer="26" font="vector" ratio="19" rot="MR55"/>
 </element>
 <element name="C5" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="0402" package3d_urn="urn:adsk.eagle:package:16500214/3" value="22pF" x="42.672" y="4.191" smashed="yes" rot="MR235">
 <attribute name="0-DESC" value=" " x="42.672" y="4.191" size="1.778" layer="28" rot="MR235" display="off"/>
@@ -13752,7 +13737,7 @@ design rules under a new name.</description>
 <attribute name="4-ALT_MPN" value=" " x="42.672" y="4.191" size="1.778" layer="28" rot="MR235" display="off"/>
 <attribute name="5-DK_PN" value=" " x="42.672" y="4.191" size="1.778" layer="28" rot="MR235" display="off"/>
 <attribute name="6-MR_PN" value=" " x="42.672" y="4.191" size="1.778" layer="28" rot="MR235" display="off"/>
-<attribute name="NAME" x="41.985340625" y="4.020265625" size="0.8128" layer="26" font="vector" ratio="19" rot="MR235"/>
+<attribute name="NAME" x="44.525340625" y="2.242265625" size="0.8128" layer="26" font="vector" ratio="19" rot="MR235"/>
 </element>
 <element name="L1" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="SK6812-B" package3d_urn="urn:adsk.eagle:package:16507179/2" value="WS2812B-B" x="30.48" y="5.08" smashed="yes" rot="MR90">
 <attribute name="0-DESC" value="NeoPixel Addressable LED" x="30.48" y="5.08" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -13982,7 +13967,7 @@ design rules under a new name.</description>
 <attribute name="4-ALT_MPN" value=" " x="43.4086" y="6.9342" size="1.778" layer="28" rot="MR140" display="off"/>
 <attribute name="5-DK_PN" value="SER4091CT-ND" x="43.4086" y="6.9342" size="1.778" layer="28" rot="MR140" display="off"/>
 <attribute name="6-MR_PN" value=" " x="43.4086" y="6.9342" size="1.778" layer="28" rot="MR140" display="off"/>
-<attribute name="NAME" x="46.5517875" y="7.7592625" size="0.8128" layer="52" ratio="10" rot="MR140" align="bottom-center"/>
+<attribute name="NAME" x="44.5197875" y="8.0132625" size="0.8128" layer="52" ratio="19" rot="MR140" align="bottom-center"/>
 </element>
 <element name="B1" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="4-SMD_BUTTON" package3d_urn="urn:adsk.eagle:package:16489977/3" value="SWITCH_EVQ-P7A01P" x="39.751" y="2.54" smashed="yes" rot="MR0">
 <attribute name="0-DESC" value="SWITCH TACTILE SPST-NO 0.05A 12V" x="39.751" y="2.54" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -14012,7 +13997,7 @@ design rules under a new name.</description>
 <attribute name="4-ALT_MPN" value=" " x="48.26" y="1.651" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="5-DK_PN" value="3352T-104LF-ND" x="48.26" y="1.651" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="6-MR_PN" value="652-3352T-1-104LF" x="48.26" y="1.651" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="43.307" y="1.651" size="0.8128" layer="22" ratio="19" rot="MR90" align="top-center"/>
+<attribute name="NAME" x="43.561" y="1.651" size="0.8128" layer="22" ratio="19" rot="MR90" align="top-center"/>
 </element>
 <element name="TP1" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="TEST_POINT" package3d_urn="urn:adsk.eagle:package:16489975/2" value="VCC" x="52.07" y="2.54" smashed="yes">
 <attribute name="VALUE" x="52.07" y="1.27" size="0.8128" layer="25" font="vector" ratio="19" align="top-center"/>
@@ -14040,7 +14025,7 @@ design rules under a new name.</description>
 <attribute name="4-ALT_MPN" value=" " x="51.5366" y="1.7526" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="5-DK_PN" value=" " x="51.5366" y="1.7526" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="6-MR_PN" value=" " x="51.5366" y="1.7526" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="52.9336" y="0.2286" size="0.8128" layer="26" font="vector" ratio="19" rot="MR90"/>
+<attribute name="NAME" x="52.0954" y="2.1336" size="0.8128" layer="26" font="vector" ratio="19" rot="MR0"/>
 <attribute name="VALUE" x="50.9016" y="3.7846" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="C6" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="0402" package3d_urn="urn:adsk.eagle:package:16500214/3" value="0.1uF" x="29.3878" y="9.144" smashed="yes" rot="MR180">
@@ -14284,8 +14269,7 @@ design rules under a new name.</description>
 <attribute name="4-ALT_MPN" value=" " x="17.653" y="1.524" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="5-DK_PN" value="WM11262CT-ND" x="17.653" y="1.524" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="6-MR_PN" value="538-105017-1001" x="17.653" y="1.524" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="20.9296" y="0.889" size="1.27" layer="26" ratio="6" rot="SMR0"/>
-<attribute name="VALUE" x="19.3802" y="3.4036" size="1.27" layer="22" ratio="6" rot="SMR0"/>
+<attribute name="NAME" x="16.1036" y="4.953" size="0.8128" layer="26" ratio="19" rot="SMR0"/>
 </element>
 <element name="J2" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="1X03-CLEANBIG" package3d_urn="urn:adsk.eagle:package:16508524/2" value="HEADER_1X3" x="17.272" y="31.115" smashed="yes" rot="R180">
 <attribute name="0-DESC" value=" " x="17.272" y="31.115" size="1.778" layer="27" rot="R180" display="off"/>
@@ -14295,10 +14279,10 @@ design rules under a new name.</description>
 <attribute name="4-ALT_MPN" value=" " x="17.272" y="31.115" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="5-DK_PN" value=" " x="17.272" y="31.115" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="6-MR_PN" value=" " x="17.272" y="31.115" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="21.1582" y="29.2862" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="22.1742" y="31.3182" size="0.8128" layer="25" font="vector" ratio="19" rot="R180"/>
 <attribute name="VALUE" x="21.082" y="34.29" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="U3" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="QFN32_5X5MC_MCH" package3d_urn="urn:adsk.eagle:package:22346259/1" value="SAMD21E__A-MU_16(64K)" x="37.338" y="8.128" smashed="yes" rot="MR90">
+<element name="U3" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="QFN32_5X5MC_MCH" package3d_urn="urn:adsk.eagle:package:22346259/2" value="SAMD21E__A-MU_16(64K)" x="37.338" y="8.128" smashed="yes" rot="MR90">
 <attribute name="0-DESC" value="ARM® Cortex®-M0+ Automotive, AEC-Q100, SAM D21E Microcontroller IC 32-Bit 48MHz 64KB (64K x 8) FLASH 32-QFN (5x5)" x="37.338" y="8.128" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="1-MN" value="Microchip Technology" x="37.338" y="8.128" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="2-MPN" value="ATSAMD21E16B-MFT" x="37.338" y="8.128" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -14307,8 +14291,7 @@ design rules under a new name.</description>
 <attribute name="5-DK_PN" value="ATSAMD21E16B-MFTCT-ND" x="37.338" y="8.128" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="6-MR_PN" value="" x="37.338" y="8.128" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="7-LCSC_PN" value="" x="37.338" y="8.128" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="36.703" y="4.8514" size="1.27" layer="26" ratio="6" rot="SMR90"/>
-<attribute name="VALUE" x="36.703" y="6.4008" size="1.27" layer="22" ratio="6" rot="SMR90"/>
+<attribute name="NAME" x="33.7566" y="10.033" size="0.8128" layer="26" ratio="19" rot="SMR0"/>
 </element>
 <element name="C26" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="0402" package3d_urn="urn:adsk.eagle:package:16500214/3" value="0.1uF" x="33.7058" y="5.9436" smashed="yes" rot="MR90">
 <attribute name="0-DESC" value=" " x="33.7058" y="6.1976" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -14318,7 +14301,7 @@ design rules under a new name.</description>
 <attribute name="4-ALT_MPN" value=" " x="33.7058" y="6.1976" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="5-DK_PN" value=" " x="33.7058" y="6.1976" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="6-MR_PN" value=" " x="33.7058" y="6.1976" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="32.8168" y="5.9436" size="0.8128" layer="26" font="vector" rot="MR270" align="bottom-center"/>
+<attribute name="NAME" x="34.3408" y="7.9756" size="0.8128" layer="26" font="vector" ratio="19" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="34.5948" y="5.9436" size="0.8128" layer="28" font="vector" rot="MR90" align="bottom-center"/>
 </element>
 <element name="C27" library="DroidForge" library_urn="urn:adsk.eagle:library:16489927" package="0402" package3d_urn="urn:adsk.eagle:package:16500214/3" value="0.1uF" x="42.0116" y="8.4582" smashed="yes" rot="MR180">
@@ -14329,7 +14312,7 @@ design rules under a new name.</description>
 <attribute name="4-ALT_MPN" value=" " x="42.2656" y="8.4582" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="5-DK_PN" value=" " x="42.2656" y="8.4582" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="6-MR_PN" value=" " x="42.2656" y="8.4582" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="42.0116" y="9.3472" size="0.8128" layer="26" font="vector" rot="MR0" align="bottom-center"/>
+<attribute name="NAME" x="43.2816" y="8.8392" size="0.8128" layer="26" font="vector" ratio="19" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="42.0116" y="7.5692" size="0.8128" layer="28" font="vector" rot="MR180" align="bottom-center"/>
 </element>
 </elements>
